@@ -3,9 +3,9 @@
 Extract author metadata from ODS files and generate structured CSV/JSON files.
 
 Reads:
-- 67_avtorov_rus.ods (67 authors with metadata)
-- 98_avtorov_rus.ods (98 authors with metadata, expanded list)
-- ART_pretest_merged_EN.xlsx (for item codes and author name matching)
+- archive/67_avtorov_rus.ods (67 authors with metadata)
+- archive/98_avtorov_rus.ods (98 authors with metadata, expanded list)
+- data/raw/ART_pretest_merged_EN.xlsx (for item codes and author name matching)
 
 Generates:
 - Full CSV/JSON with all metadata fields
@@ -431,8 +431,8 @@ def main():
     data_dir = project_root / "data" / "processed" / "author_metadata"
     data_dir.mkdir(parents=True, exist_ok=True)
     
-    ods_67_path = project_root / "67_avtorov_rus.ods"
-    ods_98_path = project_root / "98_avtorov_rus.ods"
+    ods_67_path = project_root / "archive" / "67_avtorov_rus.ods"
+    ods_98_path = project_root / "archive" / "98_avtorov_rus.ods"
     xlsx_path = project_root / "data" / "raw" / "ART_pretest_merged_EN.xlsx"
     
     print("Loading author metadata from ODS files...")

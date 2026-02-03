@@ -5,7 +5,7 @@ Analysis and data preparation scripts. Data is read from `../data/raw/` (and pro
 ## Layout
 
 - **data_prep/** — ETL: build and translate datasets
-  - `extract_author_metadata.py` — Author metadata from ODS → CSV/JSON (reads `67_avtorov_rus.ods`, `98_avtorov_rus.ods` at project root; `data/raw/ART_pretest_merged_EN.xlsx`).
+  - `extract_author_metadata.py` — Author metadata from ODS → CSV/JSON (reads `archive/67_avtorov_rus.ods`, `archive/98_avtorov_rus.ods`; `data/raw/ART_pretest_merged_EN.xlsx`).
   - `translate_art_dataset.py` — Translate single ART Excel RU→EN (default: `data/raw/pretest_dataset_ART_only.xlsx` → `data/processed/pretest_dataset_ART_only_EN.xlsx`).
   - `merge_and_translate_art.py` — Merge 800 + 1,035 ART exports and translate; writes to `data/raw/ART_pretest_merged_EN.xlsx`.
   - `_translate_utils.py` — Shared helpers for translation (used by the two scripts above).
