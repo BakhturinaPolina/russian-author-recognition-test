@@ -80,7 +80,7 @@ def main() -> None:
     args = parser.parse_args()
 
     base = Path(__file__).resolve().parent.parent
-    path_ru = base / "ART_prestest_responses.xlsx"
+    path_ru = base / "archive" / "ART_prestest_responses.xlsx"
     path_en = base / "data" / "raw" / "pretest_dataset_ART_only_EN.xlsx"
     out_path = base / "data" / "raw" / args.out if not Path(args.out).is_absolute() else Path(args.out)
 

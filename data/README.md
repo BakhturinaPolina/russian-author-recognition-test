@@ -11,6 +11,8 @@ Canonical dataset for Russian ART (Author Recognition Test) and PISA reading com
 - **Structure:** Row 0 = English labels, row 1 = item codes, rows 2+ = data. Last 9 items are NaN for the 800-participant block (that export had 205 items only).
 - **Produced by:** `scripts/merge_and_translate_art.py` (translates Russian to English like `translate_art_dataset.py`).
 
+**author_lists/** — Reference lists for ART items: `real_authors.xls` (real authors + code), `not_real_authors.xls` (foils + code). Use for scoring and mapping item codes to names.
+
 ## Layout
 
 ```
@@ -18,6 +20,9 @@ data/
 ├── raw/          # Unprocessed source files (DO NOT EDIT)
 │   ├── ART_pretest_merged_EN.xlsx   # Core merged pretest (see above)
 │   ├── pretest_dataset_ART_only_EN.xlsx
+│   ├── author_lists/ # Real vs foil item reference
+│   │   ├── real_authors.xls
+│   │   └── not_real_authors.xls
 │   ├── adults/       # Adults (age > 18)
 │   │   ├── adults_dataset1_ART.csv
 │   │   ├── adults_dataset1_PISA.csv
@@ -62,6 +67,10 @@ pretest = pd.read_excel("data/raw/ART_pretest_merged_EN.xlsx", header=None)
 
 # Original 1,035-participant pretest only
 # pretest = pd.read_excel("data/raw/pretest_dataset_ART_only_EN.xlsx")
+
+# Author lists (real vs foils) for scoring
+# real = pd.read_excel("data/raw/author_lists/real_authors.xls", header=None)
+# foils = pd.read_excel("data/raw/author_lists/not_real_authors.xls", header=None)
 ```
 
 ## Linking
