@@ -1,0 +1,28 @@
+# Virtual env and Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.eggs/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large/binary (optional: uncomment to ignore)
+# *.pdf
+# OUT/
+# OUT 2/
+# OUT_next_version_of_firt_one/
