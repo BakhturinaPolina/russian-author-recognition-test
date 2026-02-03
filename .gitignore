@@ -32,6 +32,9 @@ Thumbs.db
 # data/raw/*.xlsx
 archive/
 
+# Translation cache (regeneratable; speeds up merge script re-runs)
+data/processed/translate_cache_merge.json
+
 # Local / secrets
 .env
 .env.local
