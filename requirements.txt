@@ -3,10 +3,21 @@ pandas>=2.0
 numpy>=1.24
 openpyxl>=3.1
 
-# Optional: IRT / psychometrics (uncomment as needed)
+# IRT / psychometrics analysis
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+girth>=0.8
+factor_analyzer>=0.5
+tqdm>=4.65
+tabulate>=0.9
+
+# Optional: Bayesian IRT (uncomment as needed)
 # py-irt>=0.4.0
 # pymc>=5.0
-# scipy>=1.10
+
+# Optional: statistical testing
+# pingouin>=0.5
 
 # Optional: translation script
 # deep-translator>=1.11
