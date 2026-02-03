@@ -1,0 +1,4 @@
+# For translate_art_dataset.py only
+pandas>=2.0
+openpyxl>=3.1
+deep-translator>=1.11
