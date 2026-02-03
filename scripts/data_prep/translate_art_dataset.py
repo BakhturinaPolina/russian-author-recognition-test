@@ -8,50 +8,25 @@ Usage: python translate_art_dataset.py [--out OUTPUT.xlsx] [--delay SEC]
 """
 
 import argparse
-import re
-import time
 from pathlib import Path
 
 import pandas as pd
 from deep_translator import GoogleTranslator
 
-
-def has_cyrillic(s: str) -> bool:
-    """True if string contains any Cyrillic character."""
-    if not isinstance(s, str) or not s.strip():
-        return False
-    return bool(re.search(r"[\u0400-\u04ff]", s))
-
-
-def translate_ru_en(text: str, translator: GoogleTranslator, cache: dict, delay: float = 0.2) -> str:
-    """Translate Russian to English; use cache to avoid duplicate API calls."""
-    text = str(text).strip()
-    if not text or not has_cyrillic(text):
-        return text
-    if text in cache:
-        return cache[text]
-    time.sleep(delay)
-    try:
-        out = translator.translate(text)
-        cache[text] = out or text
-        return cache[text]
-    except Exception as e:
-        print(f"  [skip] {repr(text)[:50]}... -> {e}")
-        cache[text] = text
-        return text
+from _translate_utils import has_cyrillic, translate_ru_en
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Translate Russian text in ART dataset to English.")
     parser.add_argument(
         "--input",
-        default="pretest_dataset_ART_only.xlsx",
-        help="Input Excel file (default: pretest_dataset_ART_only.xlsx)",
+        default="",
+        help="Input Excel file (default: data/raw/pretest_dataset_ART_only.xlsx)",
     )
     parser.add_argument(
         "--out",
-        default="pretest_dataset_ART_only_EN.xlsx",
-        help="Output Excel file (default: pretest_dataset_ART_only_EN.xlsx)",
+        default="",
+        help="Output Excel file (default: data/processed/pretest_dataset_ART_only_EN.xlsx)",
     )
     parser.add_argument(
         "--delay",
@@ -61,9 +36,16 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    base = Path(__file__).resolve().parent
-    inp = base / args.input
-    out = base / args.out
+    _script_dir = Path(__file__).resolve().parent
+    project_root = _script_dir.parent.parent if _script_dir.name == "data_prep" else _script_dir.parent
+    raw_dir = project_root / "data" / "raw"
+    processed_dir = project_root / "data" / "processed"
+    inp = raw_dir / "pretest_dataset_ART_only.xlsx" if not args.input else Path(args.input)
+    out = processed_dir / "pretest_dataset_ART_only_EN.xlsx" if not args.out else Path(args.out)
+    if not inp.is_absolute():
+        inp = project_root / inp
+    if not out.is_absolute():
+        out = project_root / out
 
     if not inp.exists():
         raise SystemExit(f"Input file not found: {inp}")
@@ -97,6 +79,7 @@ def main() -> None:
             if s and s in cache and has_cyrillic(s):
                 df.iat[r, c] = cache[s]
 
+    out.parent.mkdir(parents=True, exist_ok=True)
     print(f"Writing {out} ...")
     df.to_excel(out, index=False, header=False)
     print("Done. File is readable in English.")

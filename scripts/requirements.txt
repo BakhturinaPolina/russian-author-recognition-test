@@ -1,0 +1,13 @@
+# Scripts dependencies (data_prep, analysis)
+# Install: pip install -r scripts/requirements.txt
+
+# data_prep: extract_author_metadata.py
+pandas>=2.0
+openpyxl>=3.1
+odfpy>=1.0
+
+# data_prep: translate_art_dataset.py, merge_and_translate_art.py
+deep-translator>=1.11
+
+# analysis notebooks
+numpy>=1.24

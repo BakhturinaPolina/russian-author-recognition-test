@@ -10,41 +10,12 @@ Usage: python merge_and_translate_art.py [--out OUTPUT.xlsx] [--delay SEC]
 """
 
 import argparse
-import json
-import re
-import time
 from pathlib import Path
 
 import pandas as pd
 from deep_translator import GoogleTranslator
 
-
-def has_cyrillic(s: str) -> bool:
-    if not isinstance(s, str) or not str(s).strip():
-        return False
-    return bool(re.search(r"[\u0400-\u04ff]", str(s)))
-
-
-def translate_ru_en(
-    text: str,
-    translator: GoogleTranslator,
-    cache: dict,
-    delay: float = 0.2,
-) -> str:
-    text = str(text).strip()
-    if not text or not has_cyrillic(text):
-        return text
-    if text in cache:
-        return cache[text]
-    time.sleep(delay)
-    try:
-        out = translator.translate(text)
-        cache[text] = out or text
-        return cache[text]
-    except Exception as e:
-        print(f"  [skip] {repr(text)[:50]}... -> {e}")
-        cache[text] = text
-        return text
+from _translate_utils import has_cyrillic, load_cache, save_cache, translate_ru_en
 
 
 def normalize_sex(val) -> str:
@@ -79,7 +50,8 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    base = Path(__file__).resolve().parent.parent
+    _script_dir = Path(__file__).resolve().parent
+    base = _script_dir.parent.parent if _script_dir.name == "data_prep" else _script_dir.parent
     path_ru = base / "archive" / "ART_prestest_responses.xlsx"
     path_en = base / "data" / "raw" / "pretest_dataset_ART_only_EN.xlsx"
     out_path = base / "data" / "raw" / args.out if not Path(args.out).is_absolute() else Path(args.out)
@@ -121,30 +93,20 @@ def main() -> None:
         if s in cache:
             to_translate.discard(s)
     cache_path = Path(args.cache) if args.cache else base / "data" / "processed" / "translate_cache_merge.json"
-    if cache_path.exists():
-        try:
-            with open(cache_path, encoding="utf-8") as f:
-                loaded = json.load(f)
-            cache.update(loaded)
-            for s in list(to_translate):
-                if s in cache:
-                    to_translate.discard(s)
-            print(f"Loaded {len(loaded)} cached translations; {len(to_translate)} left to translate.")
-        except Exception as e:
-            print(f"Could not load cache: {e}")
+    loaded = load_cache(cache_path)
+    cache.update(loaded)
+    for s in list(to_translate):
+        if s in cache:
+            to_translate.discard(s)
+    if loaded:
+        print(f"Loaded {len(loaded)} cached translations; {len(to_translate)} left to translate.")
     translator = GoogleTranslator(source="ru", target="en")
     for i, text in enumerate(sorted(to_translate, key=len)):
         translated = translate_ru_en(text, translator, cache, delay=args.delay)
         if translated != text:
             print(f"  {i+1}/{len(to_translate)}: {repr(text)[:45]} -> {repr(translated)[:45]}")
 
-    try:
-        cache_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(cache_path, "w", encoding="utf-8") as f:
-            json.dump(cache, f, ensure_ascii=False, indent=0)
-        print(f"Saved translation cache to {cache_path}")
-    except Exception as e:
-        print(f"Could not save cache: {e}")
+    save_cache(cache, cache_path)
 
     # Build Part B: 800 x (5 demo + 214 items); last 9 items = NaN
     rows_b = []
