@@ -1,0 +1,12 @@
+# Russian ART research project
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+
+# Optional: IRT / psychometrics (uncomment as needed)
+# py-irt>=0.4.0
+# pymc>=5.0
+# scipy>=1.10
+
+# Optional: translation script
+# deep-translator>=1.11
