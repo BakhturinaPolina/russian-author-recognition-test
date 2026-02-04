@@ -19,6 +19,7 @@ build/
 # IDE
 .idea/
 .vscode/
+.cursor/
 *.swp
 *.swo
 *~
@@ -28,9 +29,15 @@ build/
 Thumbs.db
 
 # Data (optional: uncomment to avoid committing large files)
-# data/raw/*.csv
 # data/raw/*.xlsx
 archive/
+
+# CSV files (excluded before push)
+*.csv
+
+# Psychometrics (R scripts / local)
+psychometrics/
+scripts/psychometrics/
 
 # Translation cache (regeneratable; speeds up merge script re-runs)
 data/processed/translate_cache_merge.json

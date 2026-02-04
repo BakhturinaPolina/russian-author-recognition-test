@@ -1,0 +1,1964 @@
+{
+  "authors": [
+    {
+      "id": 45,
+      "name": {
+        "en": "Agatha Christie",
+        "ru": "Агата Кристи"
+      },
+      "item_code": "det4",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1980,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-mid"
+      }
+    },
+    {
+      "id": 70,
+      "name": {
+        "en": "Alane Moore",
+        "ru": "Алан Мур"
+      },
+      "item_code": "sci5",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2015,
+        "decade": 2010,
+        "cult_status": true,
+        "genre": "graphic_novel",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 58,
+      "name": {
+        "en": "Aldous Huxley",
+        "ru": "Олдос Хаксли"
+      },
+      "item_code": "sci3",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1999,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 48,
+      "name": {
+        "en": "Alexandra Marinina",
+        "ru": "Александра Маринина"
+      },
+      "item_code": "det5",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 1995,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 44,
+      "name": {
+        "en": "Alexandre Dumas",
+        "ru": "Александр Дюма"
+      },
+      "item_code": "cla14",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1949,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "adventure",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 39,
+      "name": {
+        "en": "Alexey Ivanov",
+        "ru": "Алексей Иванов"
+      },
+      "item_code": "mod9",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2003,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 97,
+      "name": {
+        "en": "Andrey Belyanin",
+        "ru": "Андрей Белянин"
+      },
+      "item_code": "mod30",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2000,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 56,
+      "name": {
+        "en": "Andrzej Sapkovski",
+        "ru": "Анджей Сапковский"
+      },
+      "item_code": "fan6",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2007,
+        "decade": 2000,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Archibald Cronin",
+        "ru": "Арчибальд Кронин"
+      },
+      "item_code": "cla1",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1960,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 23,
+      "name": {
+        "en": "Arkady Averchenko",
+        "ru": "Аркадий Аверченко"
+      },
+      "item_code": "soc5",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 46,
+      "name": {
+        "en": "Art Spiegelman",
+        "ru": "Арт Шпигельман"
+      },
+      "item_code": "mod11",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2014,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "graphic_novel",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 30,
+      "name": {
+        "en": "Arthur Conan Doyle",
+        "ru": "Артур Конан-Дойл"
+      },
+      "item_code": "cla10",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1968,
+        "decade": 1970,
+        "cult_status": true,
+        "genre": "detective",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 35,
+      "name": {
+        "en": "Arthur Haley",
+        "ru": "Артур Хейли"
+      },
+      "item_code": "cla10",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1970,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 71,
+      "name": {
+        "en": "Ayn Rand",
+        "ru": "Айн Рэнд"
+      },
+      "item_code": "mod18",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 2008,
+        "decade": 2000,
+        "cult_status": true,
+        "genre": "fiction",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 95,
+      "name": {
+        "en": "Bernard Shaw",
+        "ru": "Бернард Шоу"
+      },
+      "item_code": "cla26",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1956,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 18,
+      "name": {
+        "en": "Boris Vasiliev",
+        "ru": "Борис Васильев"
+      },
+      "item_code": "soc2",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1969,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 80,
+      "name": {
+        "en": "Boris Vian",
+        "ru": "Борис Виан"
+      },
+      "item_code": "cla19",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1997,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 37,
+      "name": {
+        "en": "Bram Stoker",
+        "ru": "Брэм Стокер"
+      },
+      "item_code": "fan5",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 60,
+      "name": {
+        "en": "Catherine Stokett",
+        "ru": "Кэтрин Скокетт"
+      },
+      "item_code": "mod15",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2016,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "Catherine Vilmon",
+        "ru": "Екатерина Вильмонт"
+      },
+      "item_code": "det3",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2000,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "en": "Charles Dickens",
+        "ru": "Чарльз Диккенс"
+      },
+      "item_code": "cla7",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1950,
+        "decade": 1950,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 42,
+      "name": {
+        "en": "Charlotte Bronte",
+        "ru": "Шарлотта Бронте"
+      },
+      "item_code": "cla12",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 63,
+      "name": {
+        "en": "Chingiz Aitmanov",
+        "ru": "Чингиз Айтматов"
+      },
+      "item_code": "soc9",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1957,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 88,
+      "name": {
+        "en": "Colin McCullough",
+        "ru": "Колин Маккалоу"
+      },
+      "item_code": "cla23",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1980,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 67,
+      "name": {
+        "en": "Dan Bruwn",
+        "ru": "Дэн Браун"
+      },
+      "item_code": "det8",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2004,
+        "decade": 2000,
+        "cult_status": true,
+        "genre": "detective",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 78,
+      "name": {
+        "en": "Daniel Keyes",
+        "ru": "Дэниел Киз"
+      },
+      "item_code": "mod21",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 2010,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 62,
+      "name": {
+        "en": "Daniil Granin",
+        "ru": "Даниил Гранин"
+      },
+      "item_code": "soc8",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1954,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 94,
+      "name": {
+        "en": "Dina Rubina",
+        "ru": "Дина Рубина"
+      },
+      "item_code": "mod27",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 1979,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 59,
+      "name": {
+        "en": "Dmutry Gluhovsky",
+        "ru": "Дмитрий Глуховский"
+      },
+      "item_code": "sci4",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2005,
+        "decade": 2000,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 1,
+      "name": {
+        "en": "Donna Tartt",
+        "ru": "Донна Тартт"
+      },
+      "item_code": "mod2",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2014,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 43,
+      "name": {
+        "en": "Eric Maria Remarque",
+        "ru": "Эрих Мария Ремарк"
+      },
+      "item_code": "cla13",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1970,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 64,
+      "name": {
+        "en": "Ethel Lilian Voynich",
+        "ru": "Этель Лилиан Войнич"
+      },
+      "item_code": "cla18",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1955,
+        "decade": 1960,
+        "cult_status": true,
+        "genre": "historical",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "Evgeny Vodolazkin",
+        "ru": "Евгений Водолазкин"
+      },
+      "item_code": "mod4",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2013,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 83,
+      "name": {
+        "en": "Frederik Bucman",
+        "ru": "Фредерик Бакман"
+      },
+      "item_code": "mod23",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2016,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Gabriel Garsia Marquez",
+        "ru": "Габриель Гарсиа Маркес"
+      },
+      "item_code": "cla2",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1980,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "George Orwell",
+        "ru": "Джордж Оруэлл"
+      },
+      "item_code": "sci1",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1988,
+        "decade": 1990,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 26,
+      "name": {
+        "en": "George R.R. Martin",
+        "ru": "Джордж Р.Р. Мартин"
+      },
+      "item_code": "fan2",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2011,
+        "decade": 2010,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Gillian Flynn",
+        "ru": "Джиллиан Флинн"
+      },
+      "item_code": "det1",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2013,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 66,
+      "name": {
+        "en": "Gregory David Roberts",
+        "ru": "Грегори Дэвид Робертс"
+      },
+      "item_code": "mod17",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2003,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "adventure",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 41,
+      "name": {
+        "en": "Guzel Yakhina",
+        "ru": "Гузель Яхина"
+      },
+      "item_code": "mod10",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2015,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 65,
+      "name": {
+        "en": "Harper Lee",
+        "ru": "Харпер Ли"
+      },
+      "item_code": "cla19",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1964,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 53,
+      "name": {
+        "en": "Haruki Murakami",
+        "ru": "Харуки Мураками"
+      },
+      "item_code": "mod13",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2003,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 40,
+      "name": {
+        "en": "Henry Miller",
+        "ru": "Генри Миллер"
+      },
+      "item_code": "cla12",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 2000,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-mid"
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Henryk Sienkiewicz",
+        "ru": "Генрик Сенкевич"
+      },
+      "item_code": "cla4",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1985,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "historical",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 27,
+      "name": {
+        "en": "Herman Melville",
+        "ru": "Герман Мелвилл"
+      },
+      "item_code": "cla9",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1970,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 33,
+      "name": {
+        "en": "Ian Fleming",
+        "ru": "Ян Флеминг"
+      },
+      "item_code": "mod33",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": true,
+        "genre": "detective",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 74,
+      "name": {
+        "en": "Ilya Ilf",
+        "ru": "Илья Ильф"
+      },
+      "item_code": "soc15",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1960,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "adventure",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 72,
+      "name": {
+        "en": "Irving Stone",
+        "ru": "Ирвинг Стоун"
+      },
+      "item_code": "cla19",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1961,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "biography",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-mid"
+      }
+    },
+    {
+      "id": 49,
+      "name": {
+        "en": "Irwin Welch",
+        "ru": "Ирвин Уэлш"
+      },
+      "item_code": "mod12",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2004,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 25,
+      "name": {
+        "en": "Isaac Asimov",
+        "ru": "Айзек Азимов"
+      },
+      "item_code": "sfi2",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1965,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 89,
+      "name": {
+        "en": "Isaac Babel",
+        "ru": "Исаак Бабель"
+      },
+      "item_code": "soc14",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 36,
+      "name": {
+        "en": "Ivan Efremov",
+        "ru": "Иван Ефремов"
+      },
+      "item_code": "soc7",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1958,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 20,
+      "name": {
+        "en": "Jack London",
+        "ru": "Джек Лондон"
+      },
+      "item_code": "cla8",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1957,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "adventure",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "James Fenimore Cooper",
+        "ru": "Джеймс Фенимор Купер"
+      },
+      "item_code": "cla3",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1950,
+        "decade": 1950,
+        "cult_status": false,
+        "genre": "adventure",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "Jane Austen",
+        "ru": "Джейн Остин"
+      },
+      "item_code": "cla6",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1980,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "refined",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 47,
+      "name": {
+        "en": "Janusz Wisniewski",
+        "ru": "Януш Вишневский"
+      },
+      "item_code": "mod11",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2006,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 38,
+      "name": {
+        "en": "John Fowles",
+        "ru": "Джон Фаулз"
+      },
+      "item_code": "cla11",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 31,
+      "name": {
+        "en": "John R.R. Tolkien",
+        "ru": "Джон Р.Р. Толкин"
+      },
+      "item_code": "fan3",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1989,
+        "decade": 1990,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 17,
+      "name": {
+        "en": "Jojo Moyes",
+        "ru": "Джоджо Мойес"
+      },
+      "item_code": "rom1",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2013,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "romance",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 85,
+      "name": {
+        "en": "Jules Verne",
+        "ru": "Жуль Верн"
+      },
+      "item_code": "cla22",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1957,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "adventure",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 93,
+      "name": {
+        "en": "Khaled Hosseini",
+        "ru": "Халед Хоссейни"
+      },
+      "item_code": "mod1",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2015,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 92,
+      "name": {
+        "en": "Lawrense Stern",
+        "ru": "Лоуренс  Стерн"
+      },
+      "item_code": "cla25",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 2004,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "До XIX"
+      }
+    },
+    {
+      "id": 32,
+      "name": {
+        "en": "Lee Bardugo",
+        "ru": "Ли Бардуго"
+      },
+      "item_code": "fan4",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2018,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 73,
+      "name": {
+        "en": "Leonid Andreev",
+        "ru": "Леонид Андреев"
+      },
+      "item_code": "soc10",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1960,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 75,
+      "name": {
+        "en": "Lyudmila Petrushevskaya",
+        "ru": "Людмила Петрушевская"
+      },
+      "item_code": "mod19",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 1970,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 98,
+      "name": {
+        "en": "Lyudmila Ulitskaya",
+        "ru": "Людмила Улицкая"
+      },
+      "item_code": "mod32",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 1990,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 82,
+      "name": {
+        "en": "Margaret Mitchell",
+        "ru": "Маргарет Митчелл"
+      },
+      "item_code": "cla20",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1982,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 57,
+      "name": {
+        "en": "Mariam  Petrosyan",
+        "ru": "Мариам Петросян"
+      },
+      "item_code": "mod14",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2009,
+        "decade": 2010,
+        "cult_status": true,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 29,
+      "name": {
+        "en": "Marie - Aude Murai",
+        "ru": "Мари- Од Мюрей"
+      },
+      "item_code": "mod6",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2007,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 55,
+      "name": {
+        "en": "Mario Puzo",
+        "ru": "Марио Пьюзо"
+      },
+      "item_code": "det7",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1972,
+        "decade": 1970,
+        "cult_status": true,
+        "genre": "crime",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 91,
+      "name": {
+        "en": "Markus Zusak",
+        "ru": "Маркус Зусак"
+      },
+      "item_code": "mod26",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2007,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 81,
+      "name": {
+        "en": "Max Fry",
+        "ru": "Макс Фрай"
+      },
+      "item_code": "mod22",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2000,
+        "decade": 2000,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 86,
+      "name": {
+        "en": "Michel Houlleback",
+        "ru": "Мишель Холленбек"
+      },
+      "item_code": "mod24",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2003,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 28,
+      "name": {
+        "en": "Mikhail Weller",
+        "ru": "Михаил Веллер"
+      },
+      "item_code": "mod5",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1994,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 54,
+      "name": {
+        "en": "Milorad Pavic",
+        "ru": "Милорад Павич"
+      },
+      "item_code": "cla15",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 2000,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 16,
+      "name": {
+        "en": "Narine Abgaryan",
+        "ru": "Наринэ Абгарян"
+      },
+      "item_code": "mod5",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2010,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 68,
+      "name": {
+        "en": "Neil Gaiman",
+        "ru": "Нил Гейман"
+      },
+      "item_code": "fan7",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2007,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Paula Hawkins",
+        "ru": "Пола Хокинс"
+      },
+      "item_code": "det2",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2016,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 34,
+      "name": {
+        "en": "Pavel Sanaev",
+        "ru": "Павел Санаев"
+      },
+      "item_code": "mod7",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2010,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 52,
+      "name": {
+        "en": "Ray Bradbury",
+        "ru": "Рэй Брэдбери"
+      },
+      "item_code": "sci2",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1992,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "science_fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 87,
+      "name": {
+        "en": "Reshad Nuri Gyuntekin",
+        "ru": "Ришад Нури Гюнтекин"
+      },
+      "item_code": "mod25",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1986,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 84,
+      "name": {
+        "en": "Samuel Beckett",
+        "ru": "Сэмюэль Беккет"
+      },
+      "item_code": "cla21",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1989,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 15,
+      "name": {
+        "en": "Sergey Lukyanenko",
+        "ru": "Сергей Лукьяненко"
+      },
+      "item_code": "fan1",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2004,
+        "decade": 2000,
+        "cult_status": true,
+        "genre": "science_fiction",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 51,
+      "name": {
+        "en": "Somerset Maugham",
+        "ru": "Сомерсет Моэм"
+      },
+      "item_code": "cla14",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1987,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XX-1"
+      }
+    },
+    {
+      "id": 50,
+      "name": {
+        "en": "Tatiana Ustinova",
+        "ru": "Татьяна Устинова"
+      },
+      "item_code": "det6",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2000,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "simple",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 90,
+      "name": {
+        "en": "Thomas Hardy",
+        "ru": "Томас Харди"
+      },
+      "item_code": "cla24",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1988,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 14,
+      "name": {
+        "en": "Valentin Rasputin",
+        "ru": "Валентин Распутин"
+      },
+      "item_code": "soc1",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1976,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 22,
+      "name": {
+        "en": "Vasily Aksyonov",
+        "ru": "Василий Аксенов"
+      },
+      "item_code": "soc4",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1960,
+        "decade": 1960,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 76,
+      "name": {
+        "en": "Victor Astafiev",
+        "ru": "Виктор Астафьев"
+      },
+      "item_code": "soc11",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1980,
+        "decade": 1980,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 21,
+      "name": {
+        "en": "Victor Erofeev",
+        "ru": "Виктор Ерофеев"
+      },
+      "item_code": "soc3",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1993,
+        "decade": 1990,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 79,
+      "name": {
+        "en": "Victor Pelevin",
+        "ru": "Виктор Пелевин"
+      },
+      "item_code": "mod21",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 1992,
+        "decade": 1990,
+        "cult_status": true,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "Vladimir Sorokin",
+        "ru": "Владимир Сорокин"
+      },
+      "item_code": "mod3",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2001,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 24,
+      "name": {
+        "en": "Vladimir Voinovich",
+        "ru": "Владимир Войнович"
+      },
+      "item_code": "soc6",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "classic",
+        "publication_year": 1969,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 19,
+      "name": {
+        "en": "William Thackeray",
+        "ru": "Уильям Теккерей"
+      },
+      "item_code": "cla7",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "classic",
+        "publication_year": 1974,
+        "decade": 1970,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "simple",
+        "century": "XIX"
+      }
+    },
+    {
+      "id": 69,
+      "name": {
+        "en": "Yu Nesbo",
+        "ru": "Ю Несбё"
+      },
+      "item_code": "det10",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 2005,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "detective",
+        "narrative_complexity": "moderate",
+        "stylistics": "simple",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 77,
+      "name": {
+        "en": "Yustein Gordier",
+        "ru": "Юстейн Гордер"
+      },
+      "item_code": "mod20",
+      "is_real": true,
+      "metadata": {
+        "country": "foreign",
+        "time_period": "modern",
+        "publication_year": 1997,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "young_adult",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XX-2"
+      }
+    },
+    {
+      "id": 61,
+      "name": {
+        "en": "Zakhar Prilepin",
+        "ru": "Захар Прилепин"
+      },
+      "item_code": "mod16",
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2014,
+        "decade": 2010,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "refined",
+        "century": "XXI"
+      }
+    },
+    {
+      "id": 96,
+      "name": {
+        "en": "Михаил Елизаров",
+        "ru": "Михаил Елизаров"
+      },
+      "item_code": null,
+      "is_real": true,
+      "metadata": {
+        "country": "russian",
+        "time_period": "modern",
+        "publication_year": 2001,
+        "decade": 2000,
+        "cult_status": false,
+        "genre": "fiction",
+        "narrative_complexity": "complex",
+        "stylistics": "restrained",
+        "century": "XXI"
+      }
+    }
+  ]
+}
