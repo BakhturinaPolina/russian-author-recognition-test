@@ -43,6 +43,13 @@ scripts/psychometrics/
 # Translation cache (regeneratable; speeds up merge script re-runs)
 data/processed/translate_cache_merge.json
 
+# LaTeX / docs (build outputs, local reports)
+latex/
+references/
+docs/russian_art_research_report.md
+docs/PISA_files_analysis.md
+scripts/build_latex.py
+
 # Local / secrets
 .env
 .env.local
