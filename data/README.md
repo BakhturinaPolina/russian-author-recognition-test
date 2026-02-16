@@ -39,6 +39,10 @@ data/
 │       ├── no_birthdate_dataset2_ART.csv
 │       └── no_birthdate_dataset2_PISA.csv
 └── processed/    # Derived outputs (scripts may write here)
+    └── art_cleaned/   # Cleaned ART pretest (from scripts/data_prep/art_data_prep.ipynb)
+        ├── ART_pretest_merged_EN_cleaned.csv
+        ├── item_metadata.csv
+        └── excluded_items.csv
 ```
 
 ## Source
