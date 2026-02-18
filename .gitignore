@@ -52,3 +52,8 @@ scripts/build_latex.py
 .env
 .env.local
 *.key
+
+# Analysis outputs and processed data (local/regeneratable)
+scripts/analysis/replication_construction/
+data/
+data/processed/art_cleaned/
