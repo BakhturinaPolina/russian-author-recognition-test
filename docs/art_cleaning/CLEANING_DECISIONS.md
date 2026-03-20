@@ -38,6 +38,11 @@ Diagnostics were run on the raw dataset (1,835 participants × 214 item columns)
 - **Action:** Drop this column; keep Ian Fleming det4 (position 65, 0.1% missing)
 - **Rationale:** mod33 effectively empty; det4 has usable data.
 
+### Step 2b: Exclude Richard Feynman (cla17)
+- **Item:** Richard Feynman, code cla17
+- **Action:** Exclude from further analysis
+- **Rationale:** Explicit decision to drop this author from the cleaned item set (see `excluded_items.csv` reason).
+
 ### Step 3: Drop 8 items with >40% missing
 - **Items:** Sergey Nikitin fill 103, Lyudmila Ulitskaya, Alexander Tvardovsky, Ilya Ilf, Ivan Savin fill 102, Evgenia Serova fill 104, Vladimir Gusakov fill 101, Chabo Chucky fill 105
 - **Action:** Exclude from analysis
@@ -64,15 +69,15 @@ Diagnostics were run on the raw dataset (1,835 participants × 214 item columns)
 |------|--------------|
 | `ART_pretest_merged_EN_cleaned.csv` | Cleaned dataset; same structure as raw (row 0 = labels, row 1 = codes, rows 2+ = data) |
 | `item_metadata.csv` | Retained items: item_index, item_label, item_code, is_real_author, is_foil |
-| `excluded_items.csv` | Dropped items and reason |
+| `excluded_items.csv` | Dropped items with per-item reason (e.g. ">40% missing or duplicate", "exclude from further analysis") |
 
 ---
 
 ## Summary
 
 - **Before:** 214 items, 1,835 participants
-- **After:** 205 items, 1,835 participants
-- **Dropped:** 9 items (1 duplicate + 8 high-missing)
+- **After:** 204 items, 1,835 participants
+- **Dropped:** 10 items (1 duplicate Ian Fleming + 1 excluded Richard Feynman + 8 high-missing)
 - **Recoded:** 1 cell ("falce" → 0)
 
 Downstream IRT analysis (`scripts/analysis/irt_art_analysis.ipynb`) should use `data/processed/art_cleaned/ART_pretest_merged_EN_cleaned.csv` as input.

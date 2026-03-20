@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Translate Russian text in pretest_dataset_ART_only.xlsx to English.
+Translate Russian text in ART datasets to English (Excel or CSV).
 Produces an English-only copy for readers who don't know Russian.
 
 Requires: pip install pandas openpyxl deep-translator
-Usage: python translate_art_dataset.py [--out OUTPUT.xlsx] [--delay SEC]
+Usage: python translate_art_dataset.py [--input INPUT] [--out OUTPUT] [--delay SEC]
 """
 
 import argparse
@@ -21,12 +21,12 @@ def main() -> None:
     parser.add_argument(
         "--input",
         default="",
-        help="Input Excel file (default: data/raw/pretest_dataset_ART_only.xlsx)",
+        help="Input Excel/CSV file (default: data/raw/pretest_dataset_ART_only.xlsx)",
     )
     parser.add_argument(
         "--out",
         default="",
-        help="Output Excel file (default: data/processed/pretest_dataset_ART_only_EN.xlsx)",
+        help="Output Excel/CSV file (default: data/processed/pretest_dataset_ART_only_EN.xlsx)",
     )
     parser.add_argument(
         "--delay",
@@ -50,8 +50,18 @@ def main() -> None:
     if not inp.exists():
         raise SystemExit(f"Input file not found: {inp}")
 
+    inp_suffix = inp.suffix.lower()
+    out_suffix = out.suffix.lower()
+    if inp_suffix not in {".xlsx", ".xls", ".csv"}:
+        raise SystemExit(f"Unsupported input format: {inp.suffix}. Use .xlsx/.xls/.csv")
+    if out_suffix not in {".xlsx", ".xls", ".csv"}:
+        raise SystemExit(f"Unsupported output format: {out.suffix}. Use .xlsx/.xls/.csv")
+
     print(f"Reading {inp} ...")
-    df = pd.read_excel(inp, header=None)
+    if inp_suffix == ".csv":
+        df = pd.read_csv(inp, header=None)
+    else:
+        df = pd.read_excel(inp, header=None)
 
     translator = GoogleTranslator(source="ru", target="en")
     cache: dict[str, str] = {}
@@ -81,7 +91,10 @@ def main() -> None:
 
     out.parent.mkdir(parents=True, exist_ok=True)
     print(f"Writing {out} ...")
-    df.to_excel(out, index=False, header=False)
+    if out_suffix == ".csv":
+        df.to_csv(out, index=False, header=False)
+    else:
+        df.to_excel(out, index=False, header=False)
     print("Done. File is readable in English.")
 
 
