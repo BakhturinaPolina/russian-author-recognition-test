@@ -37,6 +37,15 @@ Thumbs.db
 psychometrics/
 scripts/psychometrics/
 
+# R / renv / conda environment artifacts
+renv/library/
+renv/staging/
+renv/python/
+renv/sandbox/
+.Rhistory
+.RData
+.Rproj.user/
+
 # Translation cache (regeneratable; speeds up merge script re-runs)
 data/processed/translate_cache_merge.json
 

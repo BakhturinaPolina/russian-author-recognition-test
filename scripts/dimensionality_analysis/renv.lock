@@ -1,0 +1,47 @@
+{
+  "R": {
+    "Version": "4.5.3"
+  },
+  "Packages": {
+    "psych": {
+      "Package": "psych",
+      "Version": "2.6.3",
+      "Source": "conda-forge"
+    },
+    "mirt": {
+      "Package": "mirt",
+      "Version": "1.46.1",
+      "Source": "conda-forge"
+    },
+    "lavaan": {
+      "Package": "lavaan",
+      "Version": "0.6.21",
+      "Source": "conda-forge"
+    },
+    "corrplot": {
+      "Package": "corrplot",
+      "Version": "0.95",
+      "Source": "conda-forge"
+    },
+    "ggplot2": {
+      "Package": "ggplot2",
+      "Version": "4.0.2",
+      "Source": "conda-forge"
+    },
+    "semPlot": {
+      "Package": "semPlot",
+      "Version": "1.1.8",
+      "Source": "conda-forge"
+    },
+    "IRkernel": {
+      "Package": "IRkernel",
+      "Version": "1.3.2",
+      "Source": "conda-forge"
+    },
+    "knitr": {
+      "Package": "knitr",
+      "Version": "1.51",
+      "Source": "conda-forge"
+    }
+  }
+}
