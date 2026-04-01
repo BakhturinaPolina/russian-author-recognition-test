@@ -56,3 +56,15 @@ scripts/build_latex.py
 # Analysis outputs and processed data (local/regeneratable)
 data/
 data/processed/art_cleaned/
+
+# Allow dimensionality input bundle for reproducible R stage
+!data/
+!data/stepwise_cleaned_versions/
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__author_response_matrix.csv
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__author_item_key.csv
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__foil_response_matrix.csv
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__foil_item_key.csv
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__participant_demographics.csv
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__participant_summary.csv
+!data/stepwise_cleaned_versions/05_dimensionality_inputs/ART_pretest_(for Castano)_EN__dimensionality_input__manifest.csv

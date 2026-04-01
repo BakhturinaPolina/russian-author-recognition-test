@@ -1,0 +1,10 @@
+field,value
+source_data_path,/home/polina/Documents/Cursor_Projects/Russian Author Recognition Test Cursor/data/stepwise_cleaned_versions/03_participant_demographics_normalized_categories/ART_pretest_(for Castano)_EN__participant_demographics_step04_normalized_categories.csv
+n_participants,908
+n_author_items,98
+n_foil_items,104
+author_item_id_scheme,A001..Axxx
+foil_item_id_scheme,F001..Fxxx
+author_item_exclusion,Richard Feynman (cla17)
+foil_item_exclusions,"Sergey Siptits, Chabo Chucky, Gerrit HoogenbuM"
+note,Author matrix is primary for dimensionality; foil matrix is exported for response-style diagnostics.

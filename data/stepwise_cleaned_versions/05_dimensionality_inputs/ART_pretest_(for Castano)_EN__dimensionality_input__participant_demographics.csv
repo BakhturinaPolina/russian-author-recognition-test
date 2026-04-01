@@ -1,0 +1,909 @@
+participant_id,age,sex,humanities_or_not,education_and_profession
+1,20.0,M,-,IT and Engineering
+2,50.0,F,-,Service Industry
+3,23.0,F,-,Service Industry
+4,27.0,F,-,Science and Education
+5,33.0,M,+,Service Industry
+6,23.0,F,-,IT and Engineering
+7,18.0,F,+,Service Industry
+8,26.0,F,+,Science and Education
+9,22.0,M,-,IT and Engineering
+10,27.0,M,-,Science and Education
+11,30.0,F,-,Art and Culture
+12,23.0,M,,Missing/Unknown
+13,33.0,M,-,IT and Engineering
+14,38.0,M,-,IT and Engineering
+15,29.0,M,-,Art and Culture
+16,30.0,F,-,Science and Education
+17,18.0,M,-,IT and Engineering
+18,25.0,F,-,Service Industry
+19,37.0,F,,Missing/Unknown
+20,25.0,M,,Missing/Unknown
+21,24.0,F,-,Service Industry
+22,40.0,F,-,Service Industry
+23,29.0,F,+,Science and Education
+24,23.0,M,,Student/School
+25,33.0,M,-,IT and Engineering
+26,43.0,M,-,Missing/Unknown
+27,35.0,F,-,Science and Education
+28,25.0,F,-,IT and Engineering
+29,18.0,M,-,Science and Education
+30,33.0,M,-,IT and Engineering
+31,42.0,M,-,IT and Engineering
+32,18.0,F,-,Art and Culture
+33,33.0,F,-,Service Industry
+34,31.0,F,,Missing/Unknown
+35,40.0,F,-,Service Industry
+36,19.0,F,+,Student/School
+37,40.0,F,-,Service Industry
+38,34.0,F,-,IT and Engineering
+39,30.0,F,-,Service Industry
+40,30.0,F,-,Science and Education
+41,29.0,F,+,Art and Culture
+42,21.0,M,-,IT and Engineering
+43,20.0,F,+,Science and Education
+44,29.0,F,-,Service Industry
+45,40.0,M,-,Service Industry
+46,33.0,M,_,IT and Engineering
+47,23.0,M,-,IT and Engineering
+48,54.0,M,-,Science and Education
+49,26.0,M,+,Science and Education
+50,26.0,F,-,Service Industry
+51,41.0,M,-,Service Industry
+52,28.0,M,-,IT and Engineering
+53,34.0,M,-,Service Industry
+54,43.0,M,-,Art and Culture
+55,32.0,M,-,Science and Education
+56,30.0,M,-,IT and Engineering
+57,43.0,F,-,Science and Education
+58,18.0,M,-,Missing/Unknown
+59,26.0,M,-,IT and Engineering
+60,29.0,F,-,IT and Engineering
+61,21.0,M,-,IT and Engineering
+62,21.0,F,+,Science and Education
+63,40.0,M,,Missing/Unknown
+64,30.0,M,,Missing/Unknown
+65,22.0,F,,Missing/Unknown
+66,39.0,M,-,IT and Engineering
+67,33.0,M,,Missing/Unknown
+68,24.0,M,-,IT and Engineering
+69,23.0,M,-,IT and Engineering
+70,29.0,M,-,Service Industry
+71,23.0,M,-,IT and Engineering
+72,32.0,M,-,Science and Education
+73,30.0,M,-,IT and Engineering
+74,27.0,M,,Missing/Unknown
+75,35.0,M,-,Service Industry
+76,29.0,M,-,IT and Engineering
+77,26.0,M,-,Service Industry
+78,22.0,M,-,IT and Engineering
+79,25.0,M,-,Student/School
+80,33.0,M,-,Service Industry
+81,29.0,M,-,IT and Engineering
+82,28.0,M,-,Service Industry
+83,28.0,M,,Missing/Unknown
+84,25.0,M,-,IT and Engineering
+85,29.0,M,-,Service Industry
+86,23.0,F,-,Service Industry
+87,33.0,M,-,Service Industry
+88,59.0,M,_,Service Industry
+89,18.0,M,-,IT and Engineering
+90,23.0,M,,Missing/Unknown
+91,31.0,M,,Missing/Unknown
+92,22.0,F,-,Service Industry
+93,25.0,M,,Missing/Unknown
+94,35.0,F,-,Science and Education
+95,32.0,M,-,IT and Engineering
+96,22.0,F,-,Science and Education
+97,34.0,F,+,Art and Culture
+98,22.0,F,+,Science and Education
+99,40.0,F,-,Service Industry
+100,42.0,F,-,Service Industry
+101,62.0,F,,Missing/Unknown
+102,22.0,M,-,Service Industry
+103,24.0,F,-,Service Industry
+104,26.0,M,,Missing/Unknown
+105,47.0,M,+,Science and Education
+106,36.0,F,+,Science and Education
+107,26.0,F,+,Science and Education
+108,26.0,M,+,Science and Education
+109,24.0,F,,Student/School
+110,27.0,F,,Missing/Unknown
+111,18.0,F,-,Student/School
+112,32.0,F,-,Science and Education
+113,56.0,F,-,Service Industry
+114,33.0,M,+,Science and Education
+115,59.0,F,-,Service Industry
+116,34.0,F,-,Service Industry
+117,43.0,M,-,Service Industry
+118,62.0,F,-,Service Industry
+119,20.0,F,-,IT and Engineering
+120,21.0,F,-,Science and Education
+121,31.0,F,-,Art and Culture
+122,30.0,F,-,Art and Culture
+123,21.0,M,-,Service Industry
+124,19.0,M,,Missing/Unknown
+125,29.0,F,-,Service Industry
+126,29.0,F,-,IT and Engineering
+127,35.0,F,-,Service Industry
+128,25.0,F,-,Service Industry
+129,21.0,F,-,Science and Education
+130,37.0,M,-,Service Industry
+131,22.0,M,+,Science and Education
+132,47.0,F,-,IT and Engineering
+133,30.0,F,-,Service Industry
+134,23.0,M,-,Science and Education
+135,31.0,F,,Missing/Unknown
+136,20.0,F,,Student/School
+137,37.0,F,-,Service Industry
+138,29.0,F,_,Service Industry
+139,45.0,F,-,Service Industry
+140,23.0,F,-,Service Industry
+141,36.0,F,-,Service Industry
+142,30.0,F,-,Service Industry
+143,22.0,F,-,Science and Education
+144,18.0,F,,Student/School
+145,20.0,F,-,IT and Engineering
+146,28.0,F,-,Service Industry
+147,22.0,F,-,Service Industry
+148,39.0,F,-,Service Industry
+149,29.0,F,-,IT and Engineering
+150,18.0,F,-,Student/School
+151,31.0,F,-,IT and Engineering
+152,32.0,M,-,Science and Education
+153,28.0,F,-,Service Industry
+154,44.0,F,-,IT and Engineering
+155,29.0,F,-,Service Industry
+156,27.0,M,-,Science and Education
+157,32.0,M,-,Service Industry
+158,39.0,F,-,Service Industry
+159,32.0,F,-,Service Industry
+160,31.0,F,-,Science and Education
+161,61.0,F,-,IT and Engineering
+162,19.0,F,-,IT and Engineering
+163,36.0,F,-,Service Industry
+164,18.0,F,-,Student/School
+165,24.0,F,-,Service Industry
+166,29.0,F,-,Science and Education
+167,18.0,F,+,Student/School
+168,30.0,F,-,Service Industry
+169,38.0,F,-,Service Industry
+170,32.0,F,-,IT and Engineering
+171,47.0,M,-,Science and Education
+172,19.0,F,-,Service Industry
+173,45.0,F,,Service Industry
+174,35.0,F,-,Service Industry
+175,20.0,F,,Missing/Unknown
+176,20.0,F,-,Service Industry
+177,47.0,F,-,Service Industry
+178,18.0,F,,Missing/Unknown
+179,27.0,F,-,Service Industry
+180,26.0,F,-,Missing/Unknown
+181,19.0,F,-,Service Industry
+182,19.0,F,+,Student/School
+183,30.0,F,-,Service Industry
+184,19.0,F,-,Service Industry
+185,32.0,F,,Missing/Unknown
+186,35.0,F,-,IT and Engineering
+187,30.0,M,,Missing/Unknown
+188,24.0,F,-,Science and Education
+189,25.0,F,-,Service Industry
+190,40.0,F,-,Science and Education
+191,24.0,F,-,IT and Engineering
+192,21.0,F,-,Service Industry
+193,27.0,F,-,Science and Education
+194,31.0,F,-,Service Industry
+195,22.0,F,+,Science and Education
+196,40.0,F,+,Science and Education
+197,25.0,F,-,Student/School
+198,30.0,F,-,IT and Engineering
+199,56.0,F,-,Science and Education
+200,19.0,F,,Missing/Unknown
+201,47.0,F,-,Science and Education
+202,23.0,F,-,Service Industry
+203,25.0,F,-,Science and Education
+204,21.0,F,-,Science and Education
+205,24.0,F,-,IT and Engineering
+206,33.0,F,,Missing/Unknown
+207,45.0,F,-,Service Industry
+208,27.0,F,-,Service Industry
+209,42.0,F,-,Service Industry
+210,36.0,F,-,Art and Culture
+211,30.0,F,-,Service Industry
+212,34.0,F,-,Service Industry
+213,30.0,F,-,Science and Education
+214,45.0,F,+,Art and Culture
+215,21.0,F,+,Science and Education
+216,23.0,F,+,Science and Education
+217,24.0,F,-,Service Industry
+218,29.0,M,-,Missing/Unknown
+219,36.0,F,-,Science and Education
+220,26.0,F,+,Science and Education
+221,29.0,M,-,Service Industry
+222,30.0,F,-,Science and Education
+223,23.0,F,+,Service Industry
+224,24.0,F,-,Science and Education
+225,45.0,F,-,Art and Culture
+226,20.0,F,+,Service Industry
+227,43.0,F,-,IT and Engineering
+228,24.0,M,-,Service Industry
+229,25.0,M,-,Science and Education
+230,21.0,F,-,IT and Engineering
+231,22.0,F,-,Science and Education
+232,28.0,F,-,IT and Engineering
+233,26.0,F,,Missing/Unknown
+234,42.0,M,,Missing/Unknown
+235,21.0,F,-,Service Industry
+236,31.0,F,+,Science and Education
+237,29.0,F,-,Art and Culture
+238,33.0,M,,Missing/Unknown
+239,27.0,M,-,IT and Engineering
+240,30.0,M,+,Missing/Unknown
+241,32.0,M,-,Science and Education
+242,32.0,F,-,Science and Education
+243,21.0,F,-,Service Industry
+244,21.0,M,-,Art and Culture
+245,24.0,F,-,Service Industry
+246,29.0,M,+,Art and Culture
+247,19.0,F,-,Science and Education
+248,21.0,F,-,Art and Culture
+249,20.0,M,,Missing/Unknown
+250,18.0,F,-,Art and Culture
+251,24.0,F,-,Service Industry
+252,24.0,F,,Missing/Unknown
+253,30.0,F,-,Art and Culture
+254,43.0,F,-,Service Industry
+255,36.0,M,-,IT and Engineering
+256,26.0,M,-,Science and Education
+257,46.0,F,-,Missing/Unknown
+258,19.0,F,-,Science and Education
+259,45.0,F,+,Missing/Unknown
+260,19.0,F,-,Art and Culture
+261,18.0,F,,Missing/Unknown
+262,26.0,M,-,Science and Education
+263,49.0,F,-,Service Industry
+264,25.0,F,-,Science and Education
+265,36.0,F,-,Service Industry
+266,19.0,M,,Missing/Unknown
+267,46.0,M,-,Science and Education
+268,33.0,M,-,Service Industry
+269,21.0,F,+,Art and Culture
+270,34.0,F,-,Service Industry
+271,27.0,F,-,Service Industry
+272,19.0,F,-,Art and Culture
+273,20.0,M,+,Science and Education
+274,21.0,F,,Missing/Unknown
+275,19.0,F,+,Student/School
+276,20.0,F,-,Art and Culture
+277,33.0,F,-,Service Industry
+278,20.0,F,+,Art and Culture
+279,31.0,F,-,IT and Engineering
+280,47.0,F,+,Science and Education
+281,30.0,M,,Missing/Unknown
+282,22.0,F,+,Science and Education
+283,30.0,F,+,Science and Education
+284,27.0,F,+,Science and Education
+285,31.0,F,+,Art and Culture
+286,30.0,F,-,Science and Education
+287,50.0,F,-,Art and Culture
+288,24.0,M,-,Science and Education
+289,36.0,F,+,Science and Education
+290,34.0,F,,Missing/Unknown
+291,19.0,F,-,Service Industry
+292,43.0,M,-,Service Industry
+293,18.0,F,,Missing/Unknown
+294,19.0,F,+,Science and Education
+295,40.0,F,-,Science and Education
+296,28.0,F,-,Service Industry
+297,38.0,F,-,Science and Education
+298,19.0,F,-,Service Industry
+299,47.0,F,-,Service Industry
+300,30.0,F,-,Service Industry
+301,22.0,M,-,Science and Education
+302,28.0,F,-,Service Industry
+303,22.0,F,+,Science and Education
+304,33.0,F,-,Service Industry
+305,18.0,F,,Student/School
+306,24.0,M,+,Science and Education
+307,18.0,M,+,Student/School
+308,20.0,M,+,Science and Education
+309,47.0,F,-,Service Industry
+310,31.0,F,+,Service Industry
+311,38.0,F,+,Science and Education
+312,49.0,M,-,IT and Engineering
+313,42.0,M,-,Service Industry
+314,23.0,F,-,Science and Education
+315,20.0,F,,Missing/Unknown
+316,38.0,M,-,IT and Engineering
+317,30.0,F,+,Science and Education
+318,28.0,F,+,Science and Education
+319,21.0,M,+,Science and Education
+320,26.0,F,+,Science and Education
+321,27.0,F,+,Science and Education
+322,24.0,F,+,Science and Education
+323,27.0,F,+,Missing/Unknown
+324,26.0,F,,Missing/Unknown
+325,29.0,F,+,Science and Education
+326,25.0,F,+,Science and Education
+327,48.0,M,,Missing/Unknown
+328,22.0,F,-,Service Industry
+329,45.0,F,+,Science and Education
+330,31.0,F,-,Art and Culture
+331,27.0,F,-,Science and Education
+332,33.0,F,+,Science and Education
+333,31.0,F,-,Science and Education
+334,23.0,F,+,Science and Education
+335,28.0,F,,Missing/Unknown
+336,18.0,M,,Missing/Unknown
+337,28.0,F,-,Art and Culture
+338,21.0,F,+,Science and Education
+339,18.0,F,+,Science and Education
+340,21.0,F,+,Science and Education
+341,44.0,M,-,Service Industry
+342,51.0,F,-,Science and Education
+343,21.0,F,+,Science and Education
+344,19.0,F,-,Service Industry
+345,27.0,F,-,Service Industry
+346,40.0,F,+,Service Industry
+347,23.0,F,-,Service Industry
+348,39.0,F,+,Science and Education
+349,19.0,F,,Missing/Unknown
+350,38.0,F,,Missing/Unknown
+351,23.0,M,-,IT and Engineering
+352,38.0,F,+,Science and Education
+353,27.0,F,-,Service Industry
+354,33.0,F,-,Science and Education
+355,32.0,F,-,Science and Education
+356,25.0,F,+,Science and Education
+357,26.0,F,-,IT and Engineering
+358,61.0,F,-,Service Industry
+359,31.0,F,-,Service Industry
+360,19.0,F,-,Science and Education
+361,43.0,M,-,Service Industry
+362,25.0,F,+,Science and Education
+363,38.0,M,+,Art and Culture
+364,53.0,F,-,Science and Education
+365,23.0,F,-,Science and Education
+366,21.0,F,+,Science and Education
+367,30.0,M,,Missing/Unknown
+368,36.0,F,+,Science and Education
+369,28.0,F,,Missing/Unknown
+370,25.0,F,-,Science and Education
+371,23.0,F,-,Science and Education
+372,32.0,F,+,Science and Education
+373,43.0,F,+,Science and Education
+374,29.0,F,+,Science and Education
+375,41.0,F,-,Science and Education
+376,36.0,F,-,Science and Education
+377,27.0,F,,Missing/Unknown
+378,33.0,M,-,Service Industry
+379,34.0,F,-,Science and Education
+380,30.0,F,-,Science and Education
+381,46.0,F,+,Science and Education
+382,30.0,M,-,Science and Education
+383,18.0,F,+,Science and Education
+384,24.0,F,+,Service Industry
+385,32.0,F,+,Science and Education
+386,35.0,F,+,Service Industry
+387,31.0,F,+,Science and Education
+388,34.0,M,+,Service Industry
+389,38.0,F,+,Service Industry
+390,21.0,F,+,Science and Education
+391,33.0,F,+,Science and Education
+392,18.0,F,-,Student/School
+393,31.0,F,+,Science and Education
+394,25.0,F,-,Service Industry
+395,37.0,F,+,Missing/Unknown
+396,20.0,F,-,Science and Education
+397,28.0,F,+,Service Industry
+398,35.0,M,,Missing/Unknown
+399,41.0,F,-,Science and Education
+400,32.0,F,+,Science and Education
+401,23.0,F,+,Science and Education
+402,27.0,F,-,Service Industry
+403,32.0,F,+,Service Industry
+404,19.0,M,-,IT and Engineering
+405,45.0,F,+,Missing/Unknown
+406,18.0,M,-,Service Industry
+407,36.0,M,,Missing/Unknown
+408,19.0,F,+,Service Industry
+409,40.0,F,,Missing/Unknown
+410,22.0,M,+,Science and Education
+411,29.0,M,-,Service Industry
+412,24.0,F,+,Art and Culture
+413,18.0,M,-,Science and Education
+414,48.0,F,-,Service Industry
+415,21.0,F,+,Service Industry
+416,24.0,F,+,Science and Education
+417,18.0,M,,Missing/Unknown
+418,33.0,F,+,Missing/Unknown
+419,28.0,F,-,Service Industry
+420,27.0,M,-,Art and Culture
+421,35.0,F,-,Service Industry
+422,24.0,M,-,Science and Education
+423,38.0,F,-,Science and Education
+424,28.0,F,-,Science and Education
+425,31.0,F,-,IT and Engineering
+426,32.0,F,-,Science and Education
+427,24.0,F,-,Science and Education
+428,31.0,M,-,IT and Engineering
+429,26.0,M,-,IT and Engineering
+430,33.0,F,-,Missing/Unknown
+431,19.0,F,-,Service Industry
+432,20.0,M,-,Service Industry
+433,29.0,F,-,Science and Education
+434,44.0,F,-,Missing/Unknown
+435,28.0,F,-,Missing/Unknown
+436,52.0,F,-,Science and Education
+437,21.0,F,-,Service Industry
+438,23.0,F,-,Art and Culture
+439,20.0,M,-,IT and Engineering
+440,22.0,F,+,Science and Education
+441,28.0,F,-,Service Industry
+442,57.0,F,,Missing/Unknown
+443,25.0,M,-,Service Industry
+444,38.0,F,-,Service Industry
+445,19.0,F,+,Science and Education
+446,33.0,M,-,IT and Engineering
+447,27.0,F,-,Science and Education
+448,22.0,F,+,Science and Education
+449,18.0,F,-,Service Industry
+450,26.0,F,,Missing/Unknown
+451,32.0,F,,Missing/Unknown
+452,27.0,F,-,Service Industry
+453,44.0,F,-,Service Industry
+454,36.0,M,-,Science and Education
+455,21.0,M,-,Service Industry
+456,30.0,F,-,IT and Engineering
+457,42.0,F,-,Service Industry
+458,50.0,F,-,IT and Engineering
+459,31.0,F,-,IT and Engineering
+460,35.0,F,+,Missing/Unknown
+461,25.0,F,-,IT and Engineering
+462,21.0,F,-,Science and Education
+463,28.0,F,-,Art and Culture
+464,37.0,F,-,Science and Education
+465,41.0,F,-,Service Industry
+466,61.0,F,,Missing/Unknown
+467,21.0,F,+,Science and Education
+468,43.0,M,-,Service Industry
+469,25.0,F,-,Service Industry
+470,39.0,M,,Missing/Unknown
+471,19.0,F,,Missing/Unknown
+472,19.0,M,,Missing/Unknown
+473,26.0,F,-,IT and Engineering
+474,39.0,M,,Missing/Unknown
+475,22.0,F,-,Service Industry
+476,29.0,F,+,Missing/Unknown
+477,20.0,F,-,Science and Education
+478,19.0,F,-,Service Industry
+479,40.0,F,,Missing/Unknown
+480,30.0,F,-,Service Industry
+481,28.0,F,+,Science and Education
+482,29.0,M,-,Service Industry
+483,41.0,F,-,Service Industry
+484,23.0,F,-,Art and Culture
+485,22.0,F,-,Service Industry
+486,41.0,F,,Missing/Unknown
+487,29.0,F,-,Student/School
+488,23.0,F,-,Science and Education
+489,29.0,F,-,Service Industry
+490,36.0,M,-,Science and Education
+491,37.0,F,-,Service Industry
+492,33.0,F,+,Science and Education
+493,33.0,F,-,IT and Engineering
+494,21.0,F,-,Service Industry
+495,53.0,F,,Missing/Unknown
+496,25.0,F,-,Service Industry
+497,45.0,F,-,Art and Culture
+498,27.0,F,-,Service Industry
+499,18.0,F,-,Science and Education
+500,25.0,F,-,Science and Education
+501,21.0,F,+,Art and Culture
+502,20.0,F,-,Service Industry
+503,19.0,F,-,IT and Engineering
+504,19.0,F,+,IT and Engineering
+505,26.0,F,-,Service Industry
+506,40.0,F,,Missing/Unknown
+507,40.0,M,-,Science and Education
+508,21.0,M,,Missing/Unknown
+509,32.0,F,-,Science and Education
+510,19.0,F,+,Science and Education
+511,33.0,F,-,Art and Culture
+512,42.0,F,-,Service Industry
+513,35.0,F,-,Service Industry
+514,22.0,M,-,Science and Education
+515,27.0,F,-,Science and Education
+516,26.0,F,-,Service Industry
+517,43.0,F,+,Missing/Unknown
+518,40.0,F,-,Art and Culture
+519,46.0,M,+,Service Industry
+520,22.0,F,+,Science and Education
+521,34.0,M,-,IT and Engineering
+522,21.0,F,-,Science and Education
+523,65.0,M,+,Missing/Unknown
+524,35.0,F,-,Service Industry
+525,46.0,M,-,IT and Engineering
+526,38.0,F,-,IT and Engineering
+527,31.0,F,-,Science and Education
+528,21.0,M,+,Missing/Unknown
+529,32.0,F,-,Service Industry
+530,38.0,F,-,IT and Engineering
+531,36.0,F,-,Science and Education
+532,30.0,F,-,Service Industry
+533,24.0,F,-,IT and Engineering
+534,20.0,F,-,Science and Education
+535,31.0,F,-,Art and Culture
+536,43.0,F,-,Science and Education
+537,28.0,F,+,Missing/Unknown
+538,32.0,F,-,IT and Engineering
+539,19.0,F,-,Service Industry
+540,53.0,F,+,Science and Education
+541,27.0,F,-,IT and Engineering
+542,42.0,F,-,Science and Education
+543,26.0,F,-,Service Industry
+544,21.0,F,-,Service Industry
+545,26.0,F,,Missing/Unknown
+546,22.0,F,-,Service Industry
+547,30.0,F,-,Art and Culture
+548,29.0,M,-,IT and Engineering
+549,33.0,F,+,Science and Education
+550,37.0,F,+,Service Industry
+551,22.0,F,-,IT and Engineering
+552,34.0,F,-,Service Industry
+553,60.0,F,-,Service Industry
+554,19.0,F,-,Student/School
+555,22.0,F,+,Science and Education
+556,30.0,F,+,Science and Education
+557,19.0,F,-,Service Industry
+558,23.0,F,-,Service Industry
+559,47.0,F,-,IT and Engineering
+560,25.0,M,-,IT and Engineering
+561,31.0,M,-,Service Industry
+562,20.0,F,+,Science and Education
+563,18.0,F,-,Science and Education
+564,41.0,F,-,Science and Education
+565,20.0,M,+,Student/School
+566,21.0,F,+,Student/School
+567,23.0,F,-,Service Industry
+568,18.0,M,-,Missing/Unknown
+569,32.0,F,-,IT and Engineering
+570,38.0,F,-,Service Industry
+571,27.0,M,-,Art and Culture
+572,30.0,M,-,IT and Engineering
+573,21.0,F,,Missing/Unknown
+574,25.0,F,+,Science and Education
+575,35.0,M,-,Service Industry
+576,21.0,F,-,Science and Education
+577,30.0,M,+,Science and Education
+578,30.0,M,+,Science and Education
+579,20.0,F,-,Service Industry
+580,21.0,F,,Missing/Unknown
+581,24.0,M,-,Science and Education
+582,20.0,M,-,Science and Education
+583,33.0,M,+,Missing/Unknown
+584,30.0,M,-,IT and Engineering
+585,31.0,M,-,IT and Engineering
+586,28.0,F,-,Service Industry
+587,39.0,F,-,Science and Education
+588,30.0,F,+,Service Industry
+589,32.0,M,-,Science and Education
+590,22.0,F,,Missing/Unknown
+591,25.0,M,-,Art and Culture
+592,34.0,F,-,Science and Education
+593,25.0,F,+,Science and Education
+594,19.0,F,,Missing/Unknown
+595,28.0,F,-,Science and Education
+596,31.0,F,-,Science and Education
+597,27.0,M,-,IT and Engineering
+598,27.0,M,+,Science and Education
+599,20.0,F,+,Science and Education
+600,20.0,F,-,Service Industry
+601,25.0,F,+,Science and Education
+602,35.0,F,-,Science and Education
+603,21.0,M,+,Service Industry
+604,23.0,F,-,Service Industry
+605,34.0,M,-,Service Industry
+606,56.0,M,-,IT and Engineering
+607,22.0,F,-,Service Industry
+608,28.0,F,-,Science and Education
+609,20.0,F,+,Missing/Unknown
+610,26.0,M,-,IT and Engineering
+611,45.0,F,+,Science and Education
+612,28.0,M,-,Service Industry
+613,18.0,F,-,Service Industry
+614,23.0,M,+,Missing/Unknown
+615,19.0,M,,Missing/Unknown
+616,31.0,M,-,IT and Engineering
+617,33.0,M,+,Missing/Unknown
+618,34.0,F,-,Science and Education
+619,31.0,M,-,Service Industry
+620,33.0,F,+,Science and Education
+621,34.0,M,-,Service Industry
+622,25.0,F,-,Service Industry
+623,27.0,F,+,Science and Education
+624,27.0,F,-,Science and Education
+625,29.0,F,,Missing/Unknown
+626,27.0,M,+,Service Industry
+627,28.0,M,-,Service Industry
+628,31.0,F,-,Art and Culture
+629,29.0,F,-,IT and Engineering
+630,29.0,F,+,Service Industry
+631,40.0,F,-,Service Industry
+632,39.0,F,-,Science and Education
+633,20.0,M,-,Science and Education
+634,27.0,M,-,Science and Education
+635,21.0,F,-,Service Industry
+636,30.0,M,-,IT and Engineering
+637,19.0,F,-,Science and Education
+638,33.0,F,-,Service Industry
+639,25.0,F,+,Service Industry
+640,27.0,F,-,IT and Engineering
+641,22.0,M,-,Science and Education
+642,28.0,F,-,Service Industry
+643,26.0,M,-,Science and Education
+644,20.0,M,-,Science and Education
+645,34.0,F,-,Science and Education
+646,18.0,M,-,Science and Education
+647,57.0,F,-,Science and Education
+648,28.0,M,-,IT and Engineering
+649,32.0,F,+,Science and Education
+650,22.0,F,+,Service Industry
+651,20.0,F,-,Missing/Unknown
+652,35.0,M,,Missing/Unknown
+653,20.0,F,-,Service Industry
+654,19.0,F,+,Science and Education
+655,50.0,F,,Missing/Unknown
+656,20.0,M,-,Art and Culture
+657,18.0,F,-,Service Industry
+658,34.0,M,-,IT and Engineering
+659,18.0,F,-,Student/School
+660,28.0,F,+,Missing/Unknown
+661,34.0,M,-,Service Industry
+662,36.0,M,-,Service Industry
+663,25.0,F,+,Science and Education
+664,50.0,F,-,Science and Education
+665,33.0,F,,Missing/Unknown
+666,19.0,F,-,IT and Engineering
+667,27.0,M,-,Art and Culture
+668,31.0,F,-,Service Industry
+669,30.0,M,-,IT and Engineering
+670,24.0,F,-,Service Industry
+671,31.0,F,-,Art and Culture
+672,25.0,F,,Missing/Unknown
+673,25.0,F,+,Science and Education
+674,29.0,M,-,Service Industry
+675,35.0,F,+,Science and Education
+676,18.0,F,-,Service Industry
+677,26.0,F,+,Science and Education
+678,30.0,F,-,Art and Culture
+679,51.0,F,,Missing/Unknown
+680,37.0,F,-,Service Industry
+681,45.0,F,-,Science and Education
+682,23.0,M,,Missing/Unknown
+683,30.0,F,+,Science and Education
+684,27.0,F,+,Art and Culture
+685,37.0,F,+,Service Industry
+686,30.0,F,-,IT and Engineering
+687,31.0,F,+,IT and Engineering
+688,23.0,M,+,Science and Education
+689,25.0,M,+,Science and Education
+690,20.0,F,-,Student/School
+691,62.0,M,-,Service Industry
+692,24.0,F,+,Science and Education
+693,35.0,F,+,Science and Education
+694,20.0,F,+,Science and Education
+695,29.0,M,-,IT and Engineering
+696,24.0,F,-,Science and Education
+697,21.0,M,-,Science and Education
+698,22.0,M,-,IT and Engineering
+699,27.0,F,-,IT and Engineering
+700,25.0,F,+,Service Industry
+701,23.0,M,-,Science and Education
+702,23.0,M,-,IT and Engineering
+703,19.0,M,-,IT and Engineering
+704,25.0,M,-,Science and Education
+705,36.0,F,-,Science and Education
+706,39.0,F,-,Art and Culture
+707,27.0,F,+,Science and Education
+708,35.0,F,-,Art and Culture
+709,22.0,M,+,Science and Education
+710,31.0,F,+,Science and Education
+711,22.0,F,,Missing/Unknown
+712,26.0,F,,Missing/Unknown
+713,32.0,F,-,Art and Culture
+714,25.0,M,+,Missing/Unknown
+715,26.0,M,-,Science and Education
+716,25.0,M,-,IT and Engineering
+717,36.0,M,-,Art and Culture
+718,32.0,M,-,Art and Culture
+719,25.0,F,+,Science and Education
+720,36.0,M,-,IT and Engineering
+721,18.0,M,+,Science and Education
+722,23.0,M,+,Science and Education
+723,31.0,F,+,Science and Education
+724,51.0,M,-,IT and Engineering
+725,29.0,F,-,Science and Education
+726,45.0,M,-,IT and Engineering
+727,28.0,F,+,Service Industry
+728,30.0,F,-,Service Industry
+729,33.0,F,+,Art and Culture
+730,27.0,F,,Missing/Unknown
+731,20.0,F,+,Science and Education
+732,31.0,M,-,Science and Education
+733,22.0,F,+,Science and Education
+734,32.0,F,+,Science and Education
+735,34.0,M,-,Service Industry
+736,32.0,M,+,Science and Education
+737,21.0,M,+,Science and Education
+738,22.0,F,-,Science and Education
+739,51.0,M,,Missing/Unknown
+740,28.0,M,+,Art and Culture
+741,44.0,F,+,Service Industry
+742,31.0,M,+,Service Industry
+743,27.0,M,,Missing/Unknown
+744,34.0,F,-,Science and Education
+745,22.0,F,+,Art and Culture
+746,27.0,M,-,Art and Culture
+747,20.0,F,-,IT and Engineering
+748,30.0,F,-,Service Industry
+749,26.0,M,-,Service Industry
+750,19.0,M,-,IT and Engineering
+751,34.0,F,,Missing/Unknown
+752,20.0,F,-,Service Industry
+753,20.0,F,-,Art and Culture
+754,20.0,F,,Missing/Unknown
+755,18.0,F,-,Art and Culture
+756,27.0,M,+,Service Industry
+757,30.0,M,,Missing/Unknown
+758,32.0,F,+,Art and Culture
+759,18.0,M,-,Student/School
+760,22.0,M,-,Service Industry
+761,33.0,F,-,Service Industry
+762,60.0,F,-,Science and Education
+763,54.0,M,-,Service Industry
+764,23.0,F,,Missing/Unknown
+765,21.0,F,-,Service Industry
+766,30.0,M,-,Art and Culture
+767,30.0,F,+,Missing/Unknown
+768,23.0,F,+,Science and Education
+769,27.0,M,-,IT and Engineering
+770,29.0,M,+,Science and Education
+771,20.0,F,-,Service Industry
+772,28.0,M,-,IT and Engineering
+773,29.0,M,-,IT and Engineering
+774,36.0,F,-,Service Industry
+775,24.0,F,-,Science and Education
+776,42.0,F,-,Science and Education
+777,19.0,F,,Missing/Unknown
+778,63.0,F,,Missing/Unknown
+779,45.0,F,-,Science and Education
+780,27.0,M,-,Science and Education
+781,34.0,F,-,IT and Engineering
+782,26.0,F,-,Science and Education
+783,22.0,F,-,Art and Culture
+784,30.0,F,,Missing/Unknown
+785,25.0,M,-,Service Industry
+786,28.0,M,-,Service Industry
+787,60.0,F,-,Service Industry
+788,20.0,F,-,Art and Culture
+789,24.0,M,+,Science and Education
+790,32.0,F,+,Science and Education
+791,30.0,F,-,IT and Engineering
+792,27.0,M,-,Service Industry
+793,21.0,M,-,IT and Engineering
+794,29.0,M,-,IT and Engineering
+795,22.0,M,-,IT and Engineering
+796,26.0,F,-,Art and Culture
+797,24.0,F,-,IT and Engineering
+798,22.0,M,-,Service Industry
+799,38.0,M,,Missing/Unknown
+800,30.0,F,-,IT and Engineering
+801,27.0,M,-,IT and Engineering
+802,18.0,M,-,Student/School
+803,45.0,M,,Missing/Unknown
+804,34.0,F,,Missing/Unknown
+805,40.0,F,-,Service Industry
+806,20.0,M,-,IT and Engineering
+807,24.0,F,-,Science and Education
+808,18.0,M,,Missing/Unknown
+809,28.0,M,-,Service Industry
+810,18.0,M,-,Service Industry
+811,18.0,F,-,Art and Culture
+812,36.0,F,-,Science and Education
+813,20.0,F,-,Science and Education
+814,26.0,F,-,Service Industry
+815,20.0,F,-,Art and Culture
+816,27.0,M,-,IT and Engineering
+817,27.0,M,-,IT and Engineering
+818,18.0,F,+,Student/School
+819,31.0,M,,Missing/Unknown
+820,27.0,M,-,Service Industry
+821,20.0,F,-,Student/School
+822,27.0,M,-,Service Industry
+823,23.0,M,-,IT and Engineering
+824,22.0,F,-,Science and Education
+825,18.0,F,-,IT and Engineering
+826,18.0,M,,Missing/Unknown
+827,26.0,M,+,Missing/Unknown
+828,26.0,F,-,Science and Education
+829,39.0,M,-,IT and Engineering
+830,31.0,M,+,Science and Education
+831,44.0,M,,Missing/Unknown
+832,30.0,M,,Missing/Unknown
+833,27.0,M,-,Service Industry
+834,28.0,M,-,IT and Engineering
+835,26.0,M,,Missing/Unknown
+836,21.0,M,-,Science and Education
+837,21.0,M,-,Science and Education
+838,46.0,M,-,IT and Engineering
+839,27.0,M,-,Service Industry
+840,25.0,M,-,Service Industry
+841,30.0,M,-,IT and Engineering
+842,23.0,M,-,Service Industry
+843,20.0,M,-,Service Industry
+844,32.0,M,-,IT and Engineering
+845,23.0,F,-,Service Industry
+846,26.0,M,-,IT and Engineering
+847,21.0,F,-,Art and Culture
+848,20.0,M,-,Science and Education
+849,24.0,M,-,IT and Engineering
+850,32.0,M,-,IT and Engineering
+851,18.0,M,,Missing/Unknown
+852,28.0,F,-,IT and Engineering
+853,25.0,F,+,Art and Culture
+854,22.0,M,-,IT and Engineering
+855,35.0,M,-,IT and Engineering
+856,33.0,M,-,IT and Engineering
+857,23.0,M,-,IT and Engineering
+858,30.0,M,-,IT and Engineering
+859,22.0,M,-,IT and Engineering
+860,33.0,M,-,IT and Engineering
+861,24.0,M,-,Science and Education
+862,18.0,M,-,Service Industry
+863,28.0,M,-,Service Industry
+864,20.0,M,-,Service Industry
+865,33.0,M,-,IT and Engineering
+866,26.0,M,-,Art and Culture
+867,30.0,F,-,Service Industry
+868,25.0,F,-,Service Industry
+869,20.0,F,-,Science and Education
+870,24.0,M,-,Art and Culture
+871,24.0,M,-,Science and Education
+872,20.0,M,-,IT and Engineering
+873,24.0,F,+,Science and Education
+874,20.0,F,-,Science and Education
+875,25.0,F,-,Service Industry
+876,20.0,F,-,Science and Education
+877,18.0,F,+,Science and Education
+878,22.0,F,-,Art and Culture
+879,19.0,F,-,IT and Engineering
+880,25.0,F,-,Science and Education
+881,18.0,F,-,Science and Education
+882,21.0,F,-,Service Industry
+883,20.0,M,-,Science and Education
+884,20.0,F,-,Art and Culture
+885,22.0,F,-,Service Industry
+886,30.0,M,+,Missing/Unknown
+887,29.0,M,-,Service Industry
+888,26.0,F,-,Service Industry
+889,27.0,M,-,Science and Education
+890,28.0,F,+,Science and Education
+891,24.0,F,-,Science and Education
+892,27.0,M,,Missing/Unknown
+893,24.0,M,+,Science and Education
+894,19.0,F,+,Science and Education
+895,20.0,F,-,Art and Culture
+896,26.0,F,-,Service Industry
+897,27.0,M,+,Service Industry
+898,23.0,F,+,Art and Culture
+899,27.0,M,+,Science and Education
+900,25.0,F,+,Service Industry
+901,26.0,M,-,IT and Engineering
+902,21.0,F,-,Science and Education
+903,26.0,F,,Missing/Unknown
+904,24.0,F,-,Service Industry
+905,19.0,F,-,Art and Culture
+906,26.0,M,+,Service Industry
+907,19.0,F,-,Art and Culture
+908,22.0,F,-,Missing/Unknown
