@@ -1,0 +1,8 @@
+Moore & Gordon–style EFA summary
+Initial items (post-filter, pre-zero-variance drop): 101
+Dropped zero-variance items: 0
+Removed items (guessing factor): 0
+Remaining items: 101
+Guessing factor: F2
+1-factor chi2, p: -154009.83429820644, 1.0
+2-factor chi2, p: -215961.31331885108, 1.0

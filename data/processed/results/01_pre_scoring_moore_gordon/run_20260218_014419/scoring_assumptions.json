@@ -1,0 +1,26 @@
+{
+  "missing_cells_in_item_matrix": 0,
+  "missing_handling": "strict_nan_if_any_item_missing",
+  "binary_value_enforcement": true,
+  "n_participants_total": 1835,
+  "n_participants_with_nan_scores": 0,
+  "n_participants_with_valid_scores": 1835,
+  "items_excluded_from_analysis": [
+    "Yuri Tsypkin",
+    "Victor Khlystun fill 92",
+    "Andrea Segre fill 93",
+    "Natalya Shagaida fill 94",
+    "Ivan Buzdalov fill 95",
+    "Ivan Ushachev fill 96",
+    "Holger Magel fill 97",
+    "Vasily Uzun fill 98",
+    "Sergey Siptits fill 99",
+    "Valentina Shirokova fill 100",
+    "Ian Fleming",
+    "Gerrit HoogenbuM fill1",
+    "Lawrense Stern",
+    "Yakushkina Gilyan fill 83"
+  ],
+  "n_authors_after_exclusion": 98,
+  "n_foils_after_exclusion": 92
+}

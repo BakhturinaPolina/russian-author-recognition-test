@@ -1,0 +1,23 @@
+{
+  "N": 1835,
+  "n_participants_scored": 1835,
+  "n_participants_excluded_missing": 0,
+  "n_authors": 98,
+  "n_foils": 92,
+  "mean_hits": 46.752043596730246,
+  "mean_false_alarms": 7.674659400544959,
+  "mean_standard_score": 39.077384196185285,
+  "mean_name_score": 46.752043596730246,
+  "mean_author_item_rate_pct": 47.70616693543903,
+  "mean_foil_item_rate_pct": 8.342021087548867,
+  "most_selected_foil": "Christian Lowe fill 85",
+  "most_selected_foil_rate_pct": 42.0708446866485,
+  "never_selected_foils_count": 0,
+  "high_rate_foils_count_ge_2p5x": 14,
+  "threshold_foil_2p5x_pct": 20.855052718872166,
+  "missing_handling": "strict_nan_if_any_item_missing",
+  "n_high_rate_foils_excluded": 14,
+  "revised_mean_standard_score": 43.162942779291555,
+  "n_complete_case_participants": 1835,
+  "sensitivity_delta_standard_score": 4.08555858310627
+}

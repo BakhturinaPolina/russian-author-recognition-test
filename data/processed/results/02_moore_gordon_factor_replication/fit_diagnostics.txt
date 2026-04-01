@@ -1,0 +1,7 @@
+Items after removal: 101
+1-factor cumulative variance: 38.3978
+2-factor cumulative variance: 52.7970
+resid_fro_1: 16.797441996472926
+resid_fro_2: 16.381755816477256
+resid_max_1: 0.9006443252861955
+resid_max_2: 0.7711416181385307
