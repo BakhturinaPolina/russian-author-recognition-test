@@ -1,99 +1,99 @@
 matrix_item_id,item_id_in_notebook,item_id,item_label,item_code_norm,genre,selection_rate_pct,n_selected,n_valid,corrected_item_total_corr,flag_endorsement_extreme_<.05_or_>.95,flag_citc_<.10,flag_citc_negative,flag_author_any_requested,flag_author_endorsement_any_threshold
-A001,Khaled Hosseini,Khaled Hosseini,Khaled Hosseini,mod1,Modern/Literary,15.2,138.0,908,0.35664006740857834,False,False,False,False,False
-A002,Donna Tartt,Donna Tartt,Donna Tartt,mod2,Modern/Literary,31.1,282.0,908,0.5630688718289331,False,False,False,False,True
-A003,Archibald Cronin,Archibald Cronin,Archibald Cronin,cla1,Classics,14.2,129.0,908,0.4099119875663656,False,False,False,False,False
-A004,Gillian Flynn,Gillian Flynn,Gillian Flynn,det1,Detective/Thriller,16.0,145.0,908,0.34169991028536706,False,False,False,False,False
-A005,Gabriel Garsia Marquez,Gabriel Garsia Marquez,Gabriel Garsia Marquez,cla2,Classics,80.7,733.0,908,0.5876512153277241,False,False,False,False,True
-A006,James Fenimore Cooper,James Fenimore Cooper,James Fenimore Cooper,cla3,Classics,67.2,610.0,908,0.5013841476566319,False,False,False,False,True
-A007,Henryk Sienkiewicz,Henryk Sienkiewicz,Henryk Sienkiewicz,cla4,Classics,44.3,402.0,908,0.6159737404669661,False,False,False,False,True
-A008,Paula Hawkins,Paula Hawkins,Paula Hawkins,det2,Detective/Thriller,12.7,115.0,908,0.22448683298795946,False,False,False,False,False
-A009,George Orwell,George Orwell,George Orwell,sci1,Sci-Fi,92.3,838.0,908,0.3321638074094085,False,False,False,False,True
-A010,Jane Austen,Jane Austen,Jane Austen,cla6,Classics,87.1,791.0,908,0.40430407761005593,False,False,False,False,True
-A011,Catherine Vilmon,Catherine Vilmon,Catherine Vilmon,det3,Detective/Thriller,38.3,348.0,908,0.4236807397310661,False,False,False,False,True
-A012,Vladimir Sorokin,Vladimir Sorokin,Vladimir Sorokin,mod3,Modern/Literary,57.4,521.0,908,0.5776402783814814,False,False,False,False,True
-A013,Evgeny Vodolazkin,Evgeny Vodolazkin,Evgeny Vodolazkin,mod4,Modern/Literary,34.4,312.0,908,0.5941060448056016,False,False,False,False,True
-A014,Charles Dickens,Charles Dickens,Charles Dickens,cla7,Classics,97.2,883.0,908,0.2603832214783789,True,False,False,True,True
-A015,Valentin Rasputin,Valentin Rasputin,Valentin Rasputin,soc1,SovLit,54.0,490.0,908,0.5081512443572878,False,False,False,False,True
-A016,Sergey Lukyanenko,Sergey Lukyanenko,Sergey Lukyanenko,fan1,Fantasy,85.4,775.0,908,0.35758652909463406,False,False,False,False,True
-A017,Narine Abgaryan,Narine Abgaryan,Narine Abgaryan,mod5,Modern/Literary,26.8,243.0,908,0.47577263740398684,False,False,False,False,True
-A018,Boris Vasiliev,Boris Vasiliev,Boris Vasiliev,soc2,SovLit,37.6,341.0,908,0.45916178495017274,False,False,False,False,True
-A019,William Thackeray,William Thackeray,William Thackeray,cla7,Classics,55.1,500.0,908,0.683544548816497,False,False,False,False,True
-A020,Jack London,Jack London,Jack London,cla8,Classics,98.5,894.0,908,0.19698321657747137,True,False,False,True,True
-A021,Victor Erofeev,Victor Erofeev,Victor Erofeev,soc3,SovLit,48.2,438.0,908,0.6324386038508621,False,False,False,False,True
-A022,Vasily Aksyonov,Vasily Aksyonov,Vasily Aksyonov,soc4,SovLit,60.6,550.0,908,0.5438405712688942,False,False,False,False,True
-A023,Arkady Averchenko,Arkady Averchenko,Arkady Averchenko,soc5,SovLit,45.2,410.0,908,0.5895335162008042,False,False,False,False,True
-A024,Vladimir Voinovich,Vladimir Voinovich,Vladimir Voinovich,soc6,SovLit,50.4,458.0,908,0.5583440860794643,False,False,False,False,True
-A025,George R.R. Martin,George R.R. Martin,George R.R. Martin,fan2,Fantasy,79.8,725.0,908,0.22125229228948784,False,False,False,False,True
-A026,Herman Melville,Herman Melville,Herman Melville,cla9,Classics,32.4,294.0,908,0.5987135013054805,False,False,False,False,True
-A027,Mikhail Weller,Mikhail Weller,Mikhail Weller,mod5,Modern/Literary,49.4,449.0,908,0.6104576816237832,False,False,False,False,True
-A028,Marie - Aude Murai,Marie - Aude Murai,Marie - Aude Murai,mod6,Modern/Literary,6.8,62.0,908,0.1864061612671348,False,False,False,False,False
-A029,Arthur Conan Doyle,Arthur Conan Doyle,Arthur Conan Doyle,cla10,Classics,98.8,897.0,908,0.11445223123448839,True,False,False,True,True
-A030,John R.R. Tolkien,John R.R. Tolkien,John R.R. Tolkien,fan3,Fantasy,97.2,883.0,908,0.1923022141175218,True,False,False,True,True
-A031,Lee Bardugo,Lee Bardugo,Lee Bardugo,fan4,Fantasy,6.9,63.0,908,0.21372383022133493,False,False,False,False,False
-A032,Ian Fleming,Ian Fleming,Ian Fleming,det4,Detective/Thriller,71.1,646.0,908,0.4109766667753369,False,False,False,False,True
-A033,Pavel Sanaev,Pavel Sanaev,Pavel Sanaev,mod7,Modern/Literary,43.0,390.0,908,0.619331883028593,False,False,False,False,True
-A034,Arthur Haley,Arthur Haley,Arthur Haley,cla10,Classics,53.7,488.0,908,0.5648080589351484,False,False,False,False,True
-A035,Ivan Efremov,Ivan Efremov,Ivan Efremov,soc7,SovLit,47.6,432.0,908,0.4286605630128152,False,False,False,False,True
-A036,Bram Stoker,Bram Stoker,Bram Stoker,fan5,Fantasy,65.4,594.0,908,0.4592355061198956,False,False,False,False,True
-A037,John Fowles,John Fowles,John Fowles,cla11,Classics,53.9,489.0,908,0.6888807716977151,False,False,False,False,True
-A038,Alexey Ivanov,Alexey Ivanov,Alexey Ivanov,mod9,Modern/Literary,31.6,287.0,908,0.58250425016204,False,False,False,False,True
-A039,Henry Miller,Henry Miller,Henry Miller,cla12,Classics,59.8,543.0,908,0.4777134376435167,False,False,False,False,True
-A040,Guzel Yakhina,Guzel Yakhina,Guzel Yakhina,mod10,Modern/Literary,31.1,282.0,908,0.580107353915862,False,False,False,False,True
-A041,Charlotte Bronte,Charlotte Bronte,Charlotte Bronte,cla12,Classics,75.3,684.0,908,0.5432678891049515,False,False,False,False,True
-A042,Eric Maria Remarque,Eric Maria Remarque,Eric Maria Remarque,cla13,Classics,96.1,873.0,908,0.26206318770877796,True,False,False,True,True
-A043,Alexandre Dumas,Alexandre Dumas,Alexandre Dumas,cla14,Classics,97.7,887.0,908,0.1911835525996321,True,False,False,True,True
-A044,Agatha Christie,Agatha Christie,Agatha Christie,det4,Detective/Thriller,97.7,887.0,908,0.1834471556667718,True,False,False,True,True
-A045,Art Spiegelman,Art Spiegelman,Art Spiegelman,mod11,Modern/Literary,8.7,79.0,908,0.2947247392467817,False,False,False,False,False
-A046,Janusz Wisniewski,Janusz Wisniewski,Janusz Wisniewski,mod11,Modern/Literary,56.7,515.0,908,0.4809488015005727,False,False,False,False,True
-A047,Alexandra Marinina,Alexandra Marinina,Alexandra Marinina,det5,Detective/Thriller,60.8,552.0,908,0.52624458735666,False,False,False,False,True
-A048,Irwin Welch,Irwin Welch,Irwin Welch,mod12,Modern/Literary,47.0,427.0,908,0.530728504893903,False,False,False,False,True
-A049,Tatiana Ustinova,Tatiana Ustinova,Tatiana Ustinova,det6,Detective/Thriller,79.2,719.0,908,0.42233369773726503,False,False,False,False,True
-A050,Somerset Maugham,Somerset Maugham,Somerset Maugham,cla14,Classics,70.2,637.0,908,0.6603667489557058,False,False,False,False,True
-A051,Ray Bradbury,Ray Bradbury,Ray Bradbury,sci2,Sci-Fi,96.7,878.0,908,0.26790454088343646,True,False,False,True,True
-A052,Haruki Murakami,Haruki Murakami,Haruki Murakami,mod13,Modern/Literary,93.5,849.0,908,0.3766217083398539,False,False,False,False,True
-A053,Milorad Pavic,Milorad Pavic,Milorad Pavic,cla15,Classics,36.5,331.0,908,0.6919048874244679,False,False,False,False,True
-A054,Mario Puzo,Mario Puzo,Mario Puzo,det7,Detective/Thriller,37.0,336.0,908,0.4914602949949082,False,False,False,False,True
-A055,Andrzej Sapkovski,Andrzej Sapkovski,Andrzej Sapkovski,fan6,Fantasy,65.0,590.0,908,0.18812307661592662,False,False,False,False,True
-A056,Mariam  Petrosyan,Mariam  Petrosyan,Mariam  Petrosyan,mod14,Modern/Literary,43.7,397.0,908,0.5063465755540908,False,False,False,False,True
-A057,Aldous Huxley,Aldous Huxley,Aldous Huxley,sci3,Sci-Fi,73.6,668.0,908,0.5018204743935862,False,False,False,False,True
-A058,Dmutry Gluhovsky,Dmutry Gluhovsky,Dmutry Gluhovsky,sci4,Sci-Fi,57.4,521.0,908,0.4130242362028776,False,False,False,False,True
-A059,Catherine Stokett,Catherine Stokett,Catherine Stokett,mod15,Modern/Literary,7.6,69.0,908,0.16709593599013609,False,False,False,False,False
-A060,Zakhar Prilepin,Zakhar Prilepin,Zakhar Prilepin,mod16,Modern/Literary,63.2,574.0,908,0.6119577522785848,False,False,False,False,True
-A061,Alan Milne,Alan Milne,Alan Milne,cla16,Classics,57.9,526.0,908,0.5607878495358581,False,False,False,False,True
-A062,Daniil Granin,Daniil Granin,Daniil Granin,soc8,SovLit,51.4,467.0,908,0.5758615889195667,False,False,False,False,True
-A063,Chingiz Aitmanov,Chingiz Aitmanov,Chingiz Aitmanov,soc9,SovLit,64.2,583.0,908,0.5907174472259477,False,False,False,False,True
-A064,Ethel Lilian Voynich,Ethel Lilian Voynich,Ethel Lilian Voynich,cla18,Classics,50.0,454.0,908,0.5053426707777718,False,False,False,False,True
-A065,Harper Lee,Harper Lee,Harper Lee,cla19,Classics,69.5,631.0,908,0.5423480475677264,False,False,False,False,True
-A066,Gregory David Roberts,Gregory David Roberts,Gregory David Roberts,mod17,Modern/Literary,9.5,86.0,908,0.2437427881733691,False,False,False,False,False
-A067,Dan Bruwn,Dan Bruwn,Dan Bruwn,det8,Detective/Thriller,77.1,700.0,908,0.5001793185278987,False,False,False,False,True
-A068,Neil Gaiman,Neil Gaiman,Neil Gaiman,fan7,Fantasy,67.1,609.0,908,0.38962536868341135,False,False,False,False,True
-A069,Yu Nesbo,Yu Nesbo,Yu Nesbo,det10,Detective/Thriller,48.8,443.0,908,0.5458389306365269,False,False,False,False,True
-A070,Alane Moore,Alane Moore,Alane Moore,sci5,Sci-Fi,49.7,451.0,908,0.18760950563642562,False,False,False,False,True
-A071,Ayn Rand,Ayn Rand,Ayn Rand,mod18,Modern/Literary,48.5,440.0,908,0.4272898716619236,False,False,False,False,True
-A072,Irving Stone,Irving Stone,Irving Stone,cla19,Classics,49.6,450.0,908,0.4671099218637927,False,False,False,False,True
-A073,Leonid Andreev,Leonid Andreev,Leonid Andreev,soc10,SovLit,45.5,413.0,908,0.6448131866361217,False,False,False,False,True
-A074,Lyudmila Petrushevskaya,Lyudmila Petrushevskaya,Lyudmila Petrushevskaya,mod19,Modern/Literary,46.5,422.0,908,0.613759249056625,False,False,False,False,True
-A075,Victor Astafiev,Victor Astafiev,Victor Astafiev,soc11,SovLit,64.4,585.0,908,0.5769370545611217,False,False,False,False,True
-A076,Yustein Gordier,Yustein Gordier,Yustein Gordier,mod20,Modern/Literary,4.1,37.0,908,0.2017703550351268,True,False,False,True,False
-A077,Daniel Keyes,Daniel Keyes,Daniel Keyes,mod21,Modern/Literary,55.2,501.0,908,0.4632582157057677,False,False,False,False,True
-A078,Victor Pelevin,Victor Pelevin,Victor Pelevin,mod21,Modern/Literary,90.9,825.0,908,0.43512250315995116,False,False,False,False,True
-A079,Boris Vian,Boris Vian,Boris Vian,cla19,Classics,24.9,226.0,908,0.5866939963539419,False,False,False,False,True
-A080,Max Fry,Max Fry,Max Fry,mod22,Modern/Literary,91.5,831.0,908,0.3253458560525193,False,False,False,False,True
-A081,Yury  Olesha,Yury  Olesha,Yury  Olesha,soc12,SovLit,60.5,549.0,908,0.6444899186448496,False,False,False,False,True
-A082,Margaret Mitchell,Margaret Mitchell,Margaret Mitchell,cla20,Classics,71.9,653.0,908,0.46674943264177865,False,False,False,False,True
-A083,Frederik Bucman,Frederik Bucman,Frederik Bucman,mod23,Modern/Literary,12.7,115.0,908,0.31211004279101123,False,False,False,False,False
-A084,Samuel Beckett,Samuel Beckett,Samuel Beckett,cla21,Classics,44.5,404.0,908,0.5696680680043984,False,False,False,False,True
-A085,Jules Verne,Jules Verne,Jules Verne,cla22,Classics,98.9,898.0,908,0.057591305003901444,True,True,False,True,True
-A086,Kir Bulychev,Kir Bulychev,Kir Bulychev,soc13,SovLit,80.6,732.0,908,0.49917830599376717,False,False,False,False,True
-A087,Michel Houlleback,Michel Houlleback,Michel Houlleback,mod24,Modern/Literary,31.3,284.0,908,0.6204820967792728,False,False,False,False,True
-A088,Reshad Nuri Gyuntekin,Reshad Nuri Gyuntekin,Reshad Nuri Gyuntekin,mod25,Modern/Literary,5.4,49.0,908,0.1789803533953914,False,False,False,False,False
-A089,Colin McCullough,Colin McCullough,Colin McCullough,cla23,Classics,37.7,342.0,908,0.48070228016765604,False,False,False,False,True
-A090,Isaac Babel,Isaac Babel,Isaac Babel,soc14,SovLit,61.6,559.0,908,0.6265207954596022,False,False,False,False,True
-A091,Thomas Hardy,Thomas Hardy,Thomas Hardy,cla24,Classics,43.7,397.0,908,0.4134917999870515,False,False,False,False,True
-A092,Markus Zusak,Markus Zusak,Markus Zusak,mod26,Modern/Literary,27.3,248.0,908,0.38867953571073677,False,False,False,False,True
-A093,Lawrense Stern,Lawrense Stern,Lawrense Stern,cla25,Classics,17.6,160.0,908,0.4583952181320917,False,False,False,False,False
-A094,Dina Rubina,Dina Rubina,Dina Rubina,mod27,Modern/Literary,57.2,519.0,908,0.6726328010216767,False,False,False,False,True
-A095,Bernard Shaw,Bernard Shaw,Bernard Shaw,cla26,Classics,91.1,827.0,908,0.405630789496627,False,False,False,False,True
-A096,Dmitry Bykov,Dmitry Bykov,Dmitry Bykov,mod28,Modern/Literary,64.5,586.0,908,0.5624487170170916,False,False,False,False,True
-A097,Mikhail Elizarov,Mikhail Elizarov,Mikhail Elizarov,mod29,Modern/Literary,25.3,230.0,908,0.4378319868632811,False,False,False,False,True
-A098,Andrey Belyanin,Andrey Belyanin,Andrey Belyanin,mod30,Modern/Literary,37.6,341.0,908,0.11829162856354157,False,False,False,False,True
+A001,Khaled Hosseini,Khaled Hosseini,Khaled Hosseini,mod1,Modern/Literary,15.2,138.0,908,0.3565145416191262,False,False,False,False,False
+A002,Donna Tartt,Donna Tartt,Donna Tartt,mod2,Modern/Literary,31.1,282.0,908,0.5635162315570047,False,False,False,False,True
+A003,Archibald Cronin,Archibald Cronin,Archibald Cronin,cla1,Classics,14.2,129.0,908,0.4097524894795155,False,False,False,False,False
+A004,Gillian Flynn,Gillian Flynn,Gillian Flynn,det1,Detective/Thriller,16.0,145.0,908,0.34191724482516667,False,False,False,False,False
+A005,Gabriel Garsia Marquez,Gabriel Garsia Marquez,Gabriel Garsia Marquez,cla2,Classics,80.7,733.0,908,0.5879057405223295,False,False,False,False,True
+A006,James Fenimore Cooper,James Fenimore Cooper,James Fenimore Cooper,cla3,Classics,67.2,610.0,908,0.501063412204202,False,False,False,False,True
+A007,Henryk Sienkiewicz,Henryk Sienkiewicz,Henryk Sienkiewicz,cla4,Classics,44.3,402.0,908,0.6160229245548527,False,False,False,False,True
+A008,Paula Hawkins,Paula Hawkins,Paula Hawkins,det2,Detective/Thriller,12.7,115.0,908,0.223125602486199,False,False,False,False,False
+A009,George Orwell,George Orwell,George Orwell,sci1,Sci-Fi,92.3,838.0,908,0.3330565940324034,False,False,False,False,True
+A010,Jane Austen,Jane Austen,Jane Austen,cla6,Classics,87.1,791.0,908,0.40463768190249644,False,False,False,False,True
+A011,Catherine Vilmon,Catherine Vilmon,Catherine Vilmon,det3,Detective/Thriller,38.3,348.0,908,0.42293172291880227,False,False,False,False,True
+A012,Vladimir Sorokin,Vladimir Sorokin,Vladimir Sorokin,mod3,Modern/Literary,57.4,521.0,908,0.5778204456574308,False,False,False,False,True
+A013,Evgeny Vodolazkin,Evgeny Vodolazkin,Evgeny Vodolazkin,mod4,Modern/Literary,34.4,312.0,908,0.5950563798667347,False,False,False,False,True
+A014,Charles Dickens,Charles Dickens,Charles Dickens,cla7,Classics,97.2,883.0,908,0.26054728041777,True,False,False,True,True
+A015,Valentin Rasputin,Valentin Rasputin,Valentin Rasputin,soc1,SovLit,54.0,490.0,908,0.5083948287461526,False,False,False,False,True
+A016,Sergey Lukyanenko,Sergey Lukyanenko,Sergey Lukyanenko,fan1,Fantasy,85.4,775.0,908,0.35748064720220524,False,False,False,False,True
+A017,Narine Abgaryan,Narine Abgaryan,Narine Abgaryan,mod5,Modern/Literary,26.8,243.0,908,0.4761260209016936,False,False,False,False,True
+A018,Boris Vasiliev,Boris Vasiliev,Boris Vasiliev,soc2,SovLit,37.6,341.0,908,0.45886323828900843,False,False,False,False,True
+A019,William Thackeray,William Thackeray,William Thackeray,cla7,Classics,55.1,500.0,908,0.6839243999827808,False,False,False,False,True
+A020,Jack London,Jack London,Jack London,cla8,Classics,98.5,894.0,908,0.19685499537752077,True,False,False,True,True
+A021,Victor Erofeev,Victor Erofeev,Victor Erofeev,soc3,SovLit,48.2,438.0,908,0.6324191635381783,False,False,False,False,True
+A022,Vasily Aksyonov,Vasily Aksyonov,Vasily Aksyonov,soc4,SovLit,60.6,550.0,908,0.543659077237016,False,False,False,False,True
+A023,Arkady Averchenko,Arkady Averchenko,Arkady Averchenko,soc5,SovLit,45.2,410.0,908,0.5896025476962279,False,False,False,False,True
+A024,Vladimir Voinovich,Vladimir Voinovich,Vladimir Voinovich,soc6,SovLit,50.4,458.0,908,0.5575730284991596,False,False,False,False,True
+A025,George R.R. Martin,George R.R. Martin,George R.R. Martin,fan2,Fantasy,79.8,725.0,908,0.2212754658756134,False,False,False,False,True
+A026,Herman Melville,Herman Melville,Herman Melville,cla9,Classics,32.4,294.0,908,0.5988672591862374,False,False,False,False,True
+A027,Mikhail Weller,Mikhail Weller,Mikhail Weller,mod5,Modern/Literary,49.4,449.0,908,0.6108144367402629,False,False,False,False,True
+A028,Marie - Aude Murai,Marie - Aude Murai,Marie - Aude Murai,mod6,Modern/Literary,6.8,62.0,908,0.18655721863520047,False,False,False,False,False
+A029,Arthur Conan Doyle,Arthur Conan Doyle,Arthur Conan Doyle,cla10,Classics,98.8,897.0,908,0.11481403136946136,True,False,False,True,True
+A030,John R.R. Tolkien,John R.R. Tolkien,John R.R. Tolkien,fan3,Fantasy,97.2,883.0,908,0.19243133699802978,True,False,False,True,True
+A031,Lee Bardugo,Lee Bardugo,Lee Bardugo,fan4,Fantasy,6.9,63.0,908,0.2134592828134709,False,False,False,False,False
+A032,Ian Fleming,Ian Fleming,Ian Fleming,det4,Detective/Thriller,67.6,613.0,907,0.4411814278913576,False,False,False,False,True
+A033,Pavel Sanaev,Pavel Sanaev,Pavel Sanaev,mod7,Modern/Literary,43.0,390.0,908,0.6195619535275464,False,False,False,False,True
+A034,Arthur Haley,Arthur Haley,Arthur Haley,cla10,Classics,53.7,488.0,908,0.5647316598736587,False,False,False,False,True
+A035,Ivan Efremov,Ivan Efremov,Ivan Efremov,soc7,SovLit,47.6,432.0,908,0.4281713106426881,False,False,False,False,True
+A036,Bram Stoker,Bram Stoker,Bram Stoker,fan5,Fantasy,65.4,594.0,908,0.4591880419383687,False,False,False,False,True
+A037,John Fowles,John Fowles,John Fowles,cla11,Classics,53.9,489.0,908,0.6888733713683948,False,False,False,False,True
+A038,Alexey Ivanov,Alexey Ivanov,Alexey Ivanov,mod9,Modern/Literary,31.6,287.0,908,0.5821287450789279,False,False,False,False,True
+A039,Henry Miller,Henry Miller,Henry Miller,cla12,Classics,59.8,543.0,908,0.47758561785243914,False,False,False,False,True
+A040,Guzel Yakhina,Guzel Yakhina,Guzel Yakhina,mod10,Modern/Literary,31.1,282.0,908,0.5809320664776769,False,False,False,False,True
+A041,Charlotte Bronte,Charlotte Bronte,Charlotte Bronte,cla12,Classics,75.3,684.0,908,0.5435325197754383,False,False,False,False,True
+A042,Eric Maria Remarque,Eric Maria Remarque,Eric Maria Remarque,cla13,Classics,96.1,873.0,908,0.2626956353251056,True,False,False,True,True
+A043,Alexandre Dumas,Alexandre Dumas,Alexandre Dumas,cla14,Classics,97.7,887.0,908,0.1909997882979666,True,False,False,True,True
+A044,Agatha Christie,Agatha Christie,Agatha Christie,det4,Detective/Thriller,97.7,887.0,908,0.1832594652932418,True,False,False,True,True
+A045,Art Spiegelman,Art Spiegelman,Art Spiegelman,mod11,Modern/Literary,8.7,79.0,908,0.2942574965576881,False,False,False,False,False
+A046,Janusz Wisniewski,Janusz Wisniewski,Janusz Wisniewski,mod11,Modern/Literary,56.7,515.0,908,0.48071029485785266,False,False,False,False,True
+A047,Alexandra Marinina,Alexandra Marinina,Alexandra Marinina,det5,Detective/Thriller,60.8,552.0,908,0.5258297398059864,False,False,False,False,True
+A048,Irwin Welch,Irwin Welch,Irwin Welch,mod12,Modern/Literary,47.0,427.0,908,0.5310649852877702,False,False,False,False,True
+A049,Tatiana Ustinova,Tatiana Ustinova,Tatiana Ustinova,det6,Detective/Thriller,79.2,719.0,908,0.42201667789695513,False,False,False,False,True
+A050,Somerset Maugham,Somerset Maugham,Somerset Maugham,cla14,Classics,70.2,637.0,908,0.6607320690343028,False,False,False,False,True
+A051,Ray Bradbury,Ray Bradbury,Ray Bradbury,sci2,Sci-Fi,96.7,878.0,908,0.26832405435124473,True,False,False,True,True
+A052,Haruki Murakami,Haruki Murakami,Haruki Murakami,mod13,Modern/Literary,93.5,849.0,908,0.376782522302573,False,False,False,False,True
+A053,Milorad Pavic,Milorad Pavic,Milorad Pavic,cla15,Classics,36.5,331.0,908,0.6923913858197981,False,False,False,False,True
+A054,Mario Puzo,Mario Puzo,Mario Puzo,det7,Detective/Thriller,37.0,336.0,908,0.49127243915318614,False,False,False,False,True
+A055,Andrzej Sapkovski,Andrzej Sapkovski,Andrzej Sapkovski,fan6,Fantasy,65.0,590.0,908,0.18803769092633232,False,False,False,False,True
+A056,Mariam  Petrosyan,Mariam  Petrosyan,Mariam  Petrosyan,mod14,Modern/Literary,43.7,397.0,908,0.5067741645067567,False,False,False,False,True
+A057,Aldous Huxley,Aldous Huxley,Aldous Huxley,sci3,Sci-Fi,73.6,668.0,908,0.5028860451442773,False,False,False,False,True
+A058,Dmutry Gluhovsky,Dmutry Gluhovsky,Dmutry Gluhovsky,sci4,Sci-Fi,57.4,521.0,908,0.4127751993298293,False,False,False,False,True
+A059,Catherine Stokett,Catherine Stokett,Catherine Stokett,mod15,Modern/Literary,7.6,69.0,908,0.166449970617471,False,False,False,False,False
+A060,Zakhar Prilepin,Zakhar Prilepin,Zakhar Prilepin,mod16,Modern/Literary,63.2,574.0,908,0.612144238819728,False,False,False,False,True
+A061,Alan Milne,Alan Milne,Alan Milne,cla16,Classics,57.9,526.0,908,0.5612099518283045,False,False,False,False,True
+A062,Daniil Granin,Daniil Granin,Daniil Granin,soc8,SovLit,51.4,467.0,908,0.5757049580407511,False,False,False,False,True
+A063,Chingiz Aitmanov,Chingiz Aitmanov,Chingiz Aitmanov,soc9,SovLit,64.2,583.0,908,0.590811981561629,False,False,False,False,True
+A064,Ethel Lilian Voynich,Ethel Lilian Voynich,Ethel Lilian Voynich,cla18,Classics,50.0,454.0,908,0.5041894674403918,False,False,False,False,True
+A065,Harper Lee,Harper Lee,Harper Lee,cla19,Classics,69.5,631.0,908,0.5426228910306863,False,False,False,False,True
+A066,Gregory David Roberts,Gregory David Roberts,Gregory David Roberts,mod17,Modern/Literary,9.5,86.0,908,0.24294139094026176,False,False,False,False,False
+A067,Dan Bruwn,Dan Bruwn,Dan Bruwn,det8,Detective/Thriller,77.1,700.0,908,0.5004985236597472,False,False,False,False,True
+A068,Neil Gaiman,Neil Gaiman,Neil Gaiman,fan7,Fantasy,67.1,609.0,908,0.3904422316196975,False,False,False,False,True
+A069,Yu Nesbo,Yu Nesbo,Yu Nesbo,det10,Detective/Thriller,48.8,443.0,908,0.5463632178162035,False,False,False,False,True
+A070,Alane Moore,Alane Moore,Alane Moore,sci5,Sci-Fi,49.7,451.0,908,0.18685698555981164,False,False,False,False,True
+A071,Ayn Rand,Ayn Rand,Ayn Rand,mod18,Modern/Literary,48.5,440.0,908,0.42739816068649134,False,False,False,False,True
+A072,Irving Stone,Irving Stone,Irving Stone,cla19,Classics,49.6,450.0,908,0.46728035736042944,False,False,False,False,True
+A073,Leonid Andreev,Leonid Andreev,Leonid Andreev,soc10,SovLit,45.5,413.0,908,0.6450387462411891,False,False,False,False,True
+A074,Lyudmila Petrushevskaya,Lyudmila Petrushevskaya,Lyudmila Petrushevskaya,mod19,Modern/Literary,46.5,422.0,908,0.6138914566494535,False,False,False,False,True
+A075,Victor Astafiev,Victor Astafiev,Victor Astafiev,soc11,SovLit,64.4,585.0,908,0.5767952713494107,False,False,False,False,True
+A076,Yustein Gordier,Yustein Gordier,Yustein Gordier,mod20,Modern/Literary,4.1,37.0,908,0.20225071427386146,True,False,False,True,False
+A077,Daniel Keyes,Daniel Keyes,Daniel Keyes,mod21,Modern/Literary,55.2,501.0,908,0.46386445389084496,False,False,False,False,True
+A078,Victor Pelevin,Victor Pelevin,Victor Pelevin,mod21,Modern/Literary,90.9,825.0,908,0.43534354460330327,False,False,False,False,True
+A079,Boris Vian,Boris Vian,Boris Vian,cla19,Classics,24.9,226.0,908,0.5868972643505548,False,False,False,False,True
+A080,Max Fry,Max Fry,Max Fry,mod22,Modern/Literary,91.5,831.0,908,0.32595355372397916,False,False,False,False,True
+A081,Yury  Olesha,Yury  Olesha,Yury  Olesha,soc12,SovLit,60.5,549.0,908,0.6444730516408019,False,False,False,False,True
+A082,Margaret Mitchell,Margaret Mitchell,Margaret Mitchell,cla20,Classics,71.9,653.0,908,0.46645617020895,False,False,False,False,True
+A083,Frederik Bucman,Frederik Bucman,Frederik Bucman,mod23,Modern/Literary,12.7,115.0,908,0.3126364403829894,False,False,False,False,False
+A084,Samuel Beckett,Samuel Beckett,Samuel Beckett,cla21,Classics,44.5,404.0,908,0.5698157583291182,False,False,False,False,True
+A085,Jules Verne,Jules Verne,Jules Verne,cla22,Classics,98.9,898.0,908,0.057428127102330744,True,True,False,True,True
+A086,Kir Bulychev,Kir Bulychev,Kir Bulychev,soc13,SovLit,80.6,732.0,908,0.49881061914186203,False,False,False,False,True
+A087,Michel Houlleback,Michel Houlleback,Michel Houlleback,mod24,Modern/Literary,31.3,284.0,908,0.6204786077185934,False,False,False,False,True
+A088,Reshad Nuri Gyuntekin,Reshad Nuri Gyuntekin,Reshad Nuri Gyuntekin,mod25,Modern/Literary,5.4,49.0,908,0.17877248751401456,False,False,False,False,False
+A089,Colin McCullough,Colin McCullough,Colin McCullough,cla23,Classics,37.7,342.0,908,0.4803024461961333,False,False,False,False,True
+A090,Isaac Babel,Isaac Babel,Isaac Babel,soc14,SovLit,61.6,559.0,908,0.626535273445464,False,False,False,False,True
+A091,Thomas Hardy,Thomas Hardy,Thomas Hardy,cla24,Classics,43.7,397.0,908,0.41307306444118475,False,False,False,False,True
+A092,Markus Zusak,Markus Zusak,Markus Zusak,mod26,Modern/Literary,27.3,248.0,908,0.38888253886375246,False,False,False,False,True
+A093,Lawrense Stern,Lawrense Stern,Lawrense Stern,cla25,Classics,17.6,160.0,908,0.4584577656402765,False,False,False,False,False
+A094,Dina Rubina,Dina Rubina,Dina Rubina,mod27,Modern/Literary,57.2,519.0,908,0.6727400292585535,False,False,False,False,True
+A095,Bernard Shaw,Bernard Shaw,Bernard Shaw,cla26,Classics,91.1,827.0,908,0.4056545512253938,False,False,False,False,True
+A096,Dmitry Bykov,Dmitry Bykov,Dmitry Bykov,mod28,Modern/Literary,64.5,586.0,908,0.5625408287484378,False,False,False,False,True
+A097,Mikhail Elizarov,Mikhail Elizarov,Mikhail Elizarov,mod29,Modern/Literary,25.3,230.0,908,0.4377171278733277,False,False,False,False,True
+A098,Andrey Belyanin,Andrey Belyanin,Andrey Belyanin,mod30,Modern/Literary,37.6,341.0,908,0.1171348802865877,False,False,False,False,True
