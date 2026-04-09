@@ -19,6 +19,8 @@
 | Age group | One-way ANOVA | F(3, 904) = 20.47 | < .001 | eta² = 0.064; omega² = 0.060 | Small-to-moderate overall |
 | Profession/education | Kruskal-Wallis | chi²(4) = 82.186 | < .001 | epsilon² = 0.101 | Non-trivial overall |
 
+**How to read Table 1:** all four demographic variables show statistically reliable differences in theta, but their practical strength differs. The most meaningful effects are for humanities background and profession/education, while sex is much smaller.
+
 ---
 
 ## 1) Sex
@@ -29,6 +31,8 @@
 |---|---:|---:|---:|
 | F | 597 | 0.064 | 0.916 |
 | M | 311 | -0.126 | 1.094 |
+
+**How to read Table 2:** the female mean is above the male mean, but the overlap in standard deviations is large, which is consistent with a small effect size.
 
 Women scored higher than men by about **0.19 theta units** (0.064 - (-0.126) = 0.190).  
 This difference is statistically reliable (**p = .009**), but the effect size is **very small** (**g = 0.194**).  
@@ -45,6 +49,8 @@ This difference is statistically reliable (**p = .009**), but the effect size is
 |---|---:|---:|---:|
 | Non-humanities | 599 | -0.132 | 0.956 |
 | Humanities | 201 | 0.511 | 0.848 |
+
+**How to read Table 3:** the mean gap is large relative to within-group variability, which is why this contrast is not only significant but also practically meaningful.
 
 Participants with a humanities background scored higher by about **0.64 theta units** (0.511 - (-0.132) = 0.643).  
 The difference is highly reliable (**p < .001**) and **moderate in size** (**g = 0.690**).
@@ -66,6 +72,8 @@ The difference is highly reliable (**p < .001**) and **moderate in size** (**g =
 | 36-50 | 143 | 0.292 | 0.847 |
 | 51+ | 28 | 0.388 | 0.932 |
 
+**How to read Table 4:** mean theta rises stepwise across age bands, with the clearest separation between the youngest group (`<=25`) and everyone older.
+
 There is a clear overall age effect (**F(3,904)=20.47, p<.001**), with small-to-moderate explained variance (**eta²=.064; omega²=.060**).
 
 ### Table 5. Tukey post-hoc results (adjusted)
@@ -78,6 +86,8 @@ There is a clear overall age effect (**F(3,904)=20.47, p<.001**), with small-to-
 | 36-50 vs 26-35 | 0.146 | [-0.095, 0.388] | .403 |
 | 51+ vs 26-35 | 0.242 | [-0.239, 0.723] | .565 |
 | 51+ vs 36-50 | 0.096 | [-0.411, 0.603] | .962 |
+
+**How to read Table 5:** confidence intervals crossing 0 indicate no clear difference. Here, only comparisons against `<=25` are clearly different after multiple-comparison correction.
 
 Pattern: the **<=25 group is lower than every older group**; differences among older groups are not significant.
 
@@ -101,6 +111,8 @@ Continuous analyses support the same trend:
 | Art and Culture | 74 | 0.256 | 0.918 |
 | Student/School | 26 | -0.686 | 0.609 |
 
+**How to read Table 6:** category means spread widely (from `0.314` to `-0.686`), suggesting meaningful between-group stratification in print exposure.
+
 Overall group differences are strong (**chi²(4)=82.186, p<.001; epsilon²=.101**), indicating meaningful separation across categories.
 
 ### Table 7. Pairwise Wilcoxon tests (Holm-adjusted p)
@@ -117,6 +129,8 @@ Overall group differences are strong (**chi²(4)=82.186, p<.001; epsilon²=.101*
 | Art and Culture vs IT and Engineering | < .001 | Significant |
 | Student/School vs IT and Engineering | .312 | Not significant |
 | Student/School vs Art and Culture | < .001 (reported as 0 after rounding) | Significant |
+
+**How to read Table 7:** significance is selective rather than universal. Several pairs differ strongly, while some adjacent groups remain statistically similar, which is expected in heterogeneous social categories.
 
 **Interpretation in words:** higher theta is concentrated in `Science and Education` and `Art and Culture`; lower theta is concentrated in `IT and Engineering` and especially `Student/School`. Not all contrasts are different, but many are.
 
