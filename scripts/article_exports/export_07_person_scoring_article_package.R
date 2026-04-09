@@ -292,7 +292,7 @@ p_corp <- ggplot(cor_long, aes(x = Var1, y = Var2, fill = r)) +
   geom_tile(colour = "white") +
   geom_text(aes(label = label), size = 4.5) +
   scale_fill_gradient2(low = "#4575B4", mid = "white", high = "#D73027", midpoint = 0, limits = c(-1, 1), name = "Pearson r") +
-  labs(title = "Pearson correlation matrix — score types", x = NULL, y = NULL) +
+  labs(title = "Pearson correlation matrix - score types", x = NULL, y = NULL) +
   coord_fixed() +
   theme_bw(base_size = 13)
 save_dual(p_corp, "figure_correlation_heatmap_pearson", 7, 6)
@@ -305,7 +305,7 @@ p_cors <- ggplot(cor_long_sp, aes(x = Var1, y = Var2, fill = r)) +
   geom_tile(colour = "white") +
   geom_text(aes(label = label), size = 4.5) +
   scale_fill_gradient2(low = "#4575B4", mid = "white", high = "#D73027", midpoint = 0, limits = c(-1, 1), name = "Spearman rho") +
-  labs(title = "Spearman correlation matrix — score types", x = NULL, y = NULL) +
+  labs(title = "Spearman correlation matrix - score types", x = NULL, y = NULL) +
   coord_fixed() +
   theme_bw(base_size = 13)
 save_dual(p_cors, "figure_correlation_heatmap_spearman", 7, 6)
