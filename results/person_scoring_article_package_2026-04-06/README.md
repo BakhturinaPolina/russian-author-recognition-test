@@ -44,4 +44,6 @@ Generated from `scripts/irt_analysis/07_person_scoring.ipynb`.
 ## Notes
 
 - Group comparison tables are split into **descriptives** and **test** CSVs for clarity; merge in your manuscript workflow if you prefer one table per contrast.
+- In the notebook narrative/output, demographic contrasts are reported with effect sizes alongside p-values (Hedges *g* for two-group tests, eta^2/omega^2 for ANOVA, epsilon^2 for Kruskal-Wallis), plus post-hoc tests where relevant.
+- Score-type comparison output includes pairwise correlation tests with Pearson 95% CIs and BH-adjusted p-values (in addition to matrix-style correlations).
 - Until the export script is run, this folder may only contain this `README.md`.
