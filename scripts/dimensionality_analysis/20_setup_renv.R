@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 #
-# setup_renv.R — Bootstrap script for the dimensionality analysis environment
+# 20_setup_renv.R — Bootstrap script for the dimensionality analysis environment
 #
 # This project uses R for dimensionality / unidimensionality testing of ART
 # author items (tetrachoric correlations, EFA, CFA with WLSMV).
@@ -14,7 +14,7 @@
 #      source ~/.bashrc
 #
 # 2. Create the environment from the lockfile:
-#      micromamba create -f environment.yml
+#      micromamba create -f 21_environment.yml
 #    OR from scratch:
 #      micromamba create -n r_dimensionality -c conda-forge -y \
 #        r-base r-psych r-mirt r-lavaan r-corrplot r-ggplot2 \
@@ -32,7 +32,7 @@
 #
 # Run after setup to confirm all packages are available:
 #   micromamba activate r_dimensionality
-#   Rscript setup_renv.R
+#   Rscript 20_setup_renv.R
 
 cat("── Dimensionality analysis R environment check ──\n\n")
 
@@ -65,5 +65,5 @@ if (all_ok) {
   cat("All packages found. Environment is ready.\n")
 } else {
   cat("Some packages are missing. Re-run:\n")
-  cat("  micromamba create -f environment.yml\n")
+  cat("  micromamba create -f 21_environment.yml\n")
 }

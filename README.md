@@ -45,16 +45,16 @@ pip install -r requirements.txt
 ### R dimensionality environment (micromamba/conda)
 
 R dimensionality work is configured in:
-- `scripts/dimensionality_analysis/environment.yml`
-- `scripts/dimensionality_analysis/renv.lock`
-- `scripts/dimensionality_analysis/setup_renv.R`
+- `scripts/dimensionality_analysis/21_21_environment.yml`
+- `scripts/dimensionality_analysis/22_22_renv.lock`
+- `scripts/dimensionality_analysis/20_20_setup_renv.R`
 
 Create and verify:
 
 ```bash
-micromamba create -f scripts/dimensionality_analysis/environment.yml
+micromamba create -f scripts/dimensionality_analysis/21_21_environment.yml
 micromamba activate r_dimensionality
-Rscript scripts/dimensionality_analysis/setup_renv.R
+Rscript scripts/dimensionality_analysis/20_20_setup_renv.R
 ```
 
 ## Notes

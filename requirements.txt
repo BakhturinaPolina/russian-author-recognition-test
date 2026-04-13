@@ -29,6 +29,6 @@ tabulate>=0.9
 deep-translator>=1.11
 
 # R dimensionality dependencies are managed separately via:
-# scripts/dimensionality_analysis/environment.yml
-# scripts/dimensionality_analysis/renv.lock
-# scripts/dimensionality_analysis/setup_renv.R
+# scripts/dimensionality_analysis/21_21_environment.yml
+# scripts/dimensionality_analysis/22_22_renv.lock
+# scripts/dimensionality_analysis/20_20_setup_renv.R
