@@ -2,6 +2,8 @@
 
 Generated from `scripts/irt_analysis/15_person_scoring.ipynb`.
 
+**Sample version:** Paths and output directories follow `scripts/config.json` → `SAMPLE_VERSION` (same logic as notebooks 11 and 13: tagged samples use `05_dimensionality_inputs` when present, else `03_dimensionality_inputs`; theta from `04_irt_item_calibration/` under the tagged tree).
+
 **Reproducibility:** Run the notebook through the merged `person_df` (with `hits`, `corrected_art_score`, `stronger_penalty_score`, `theta`, `irt06_theta_se`, and demographics), then execute the final cell or:
 
 `source(file.path(PROJECT_ROOT, "scripts", "irt_analysis", "16_export_article_package.R"))`

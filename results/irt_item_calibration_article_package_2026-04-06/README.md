@@ -11,7 +11,7 @@ source(file.path(PROJECT_ROOT, "scripts", "irt_analysis", "14_export_article_pac
 
 **Note:** Export uses fitted models already in memory (no refit). ICC/TIF/CSE recomputation is quick.
 
-Pipeline inputs: `data/stepwise_cleaned_versions/05_dimensionality_inputs/`. Item-key flags from notebook **05** should be present before **06** so keep/review/drop logic matches the notebook.
+Pipeline inputs follow `scripts/config.json` → `SAMPLE_VERSION`: **`full`** uses `data/stepwise_cleaned_versions/05_dimensionality_inputs/`; **tagged** runs (e.g. `strict_fa`) use `data/stepwise_cleaned_versions_<tag>/05_dimensionality_inputs/` if that folder exists, otherwise `.../03_dimensionality_inputs/`. Article exports land in `results/irt_item_calibration_<tag>_article_package_2026-04-06/` when the tag is not `full`.
 
 ## Tables (CSV)
 

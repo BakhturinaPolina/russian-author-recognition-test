@@ -205,6 +205,8 @@ cs <- cbind(score = rownames(cor_spearman), as.data.frame(cor_spearman), row.nam
 write_safe(cp, "table_correlation_matrix_pearson.csv")
 write_safe(cs, "table_correlation_matrix_spearman.csv")
 
+n_cor_complete <- sum(stats::complete.cases(score_mat))
+
 # ── Figures ─────────────────────────────────────────────────────────────────
 fig_theta_hist <- ggplot2::ggplot(person_df, ggplot2::aes(x = theta)) +
   ggplot2::geom_histogram(ggplot2::aes(y = ggplot2::after_stat(density)),
@@ -337,7 +339,14 @@ fig_cor_p <- ggplot2::ggplot(cor_long, ggplot2::aes(x = Var1, y = Var2, fill = r
     low = "#4575B4", mid = "white", high = "#D73027",
     midpoint = 0, limits = c(-1, 1), name = "Pearson r"
   ) +
-  ggplot2::labs(title = "Pearson correlation matrix — score types", x = NULL, y = NULL) +
+  ggplot2::labs(
+    title = "Pearson correlation matrix - score types",
+    subtitle = sprintf(
+      "All four scores; N = %d; pairwise complete observations",
+      n_cor_complete
+    ),
+    x = NULL, y = NULL
+  ) +
   ggplot2::coord_fixed() +
   ggplot2::theme_bw(base_size = 13)
 save_both(fig_cor_p, "figure_correlation_heatmap_pearson", w = 6.5, h = 5.5)
@@ -352,7 +361,14 @@ fig_cor_s <- ggplot2::ggplot(cor_long_sp, ggplot2::aes(x = Var1, y = Var2, fill 
     low = "#4575B4", mid = "white", high = "#D73027",
     midpoint = 0, limits = c(-1, 1), name = "Spearman rho"
   ) +
-  ggplot2::labs(title = "Spearman correlation matrix — score types", x = NULL, y = NULL) +
+  ggplot2::labs(
+    title = "Spearman correlation matrix - score types",
+    subtitle = sprintf(
+      "All four scores; N = %d; pairwise complete observations",
+      n_cor_complete
+    ),
+    x = NULL, y = NULL
+  ) +
   ggplot2::coord_fixed() +
   ggplot2::theme_bw(base_size = 13)
 save_both(fig_cor_s, "figure_correlation_heatmap_spearman", w = 6.5, h = 5.5)
@@ -378,7 +394,7 @@ if (requireNamespace("GGally", quietly = TRUE)) {
   )
   message("Wrote GGally scatterplot matrix (PNG/PDF)")
 } else {
-  message("Package GGally not installed — skipping figure_score_scatterplot_matrix")
+  message("Package GGally not installed - skipping figure_score_scatterplot_matrix")
 }
 
 message("Article package complete: ", OUT_DIR)
