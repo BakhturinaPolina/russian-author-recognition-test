@@ -40,9 +40,11 @@ if (!exists("SAMPLE_VERSION")) {
 if (SAMPLE_VERSION == "full") {
   DATA_DIR <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs")
 } else {
-  DATA_DIR <- file.path(PROJECT_ROOT, "data",
-                        paste0("stepwise_cleaned_versions_", SAMPLE_VERSION),
-                        "03_dimensionality_inputs")
+  sample_root <- file.path(PROJECT_ROOT, "data",
+                           paste0("stepwise_cleaned_versions_", SAMPLE_VERSION))
+  p05 <- file.path(sample_root, "05_dimensionality_inputs")
+  p03 <- file.path(sample_root, "03_dimensionality_inputs")
+  DATA_DIR <- if (dir.exists(p05)) p05 else p03
 }
 
 manifest <- read.csv(
@@ -400,7 +402,7 @@ fm <- lavaan::fitMeasures(cfa_fit, c(
 fit_table <- data.frame(
   metric = names(fm),
   value = as.numeric(fm),
-  analysis = "full_98",
+  analysis = sprintf("full_%d_items", ncol(author_mat)),
   stringsAsFactors = FALSE
 )
 
@@ -501,7 +503,7 @@ fm_tr <- lavaan::fitMeasures(cfa_fit_trimmed, c(
 fit_table_tr <- data.frame(
   metric = names(fm_tr),
   value = as.numeric(fm_tr),
-  analysis = "trimmed_84",
+  analysis = sprintf("trimmed_%d_items", ncol(author_mat_trimmed)),
   stringsAsFactors = FALSE
 )
 write.csv(rbind(fit_table, fit_table_tr), file.path(OUT_DIR, "table_cfa_fit_indices.csv"), row.names = FALSE)
@@ -528,7 +530,7 @@ comparison <- data.frame(
     "Items",
     "Problem pairs (zero cells)",
     "Problem pairs (%)",
-    "Eigenvalue ratio (lam1/lam2)",
+    "Eigenvalue ratio (EV1/EV2)",
     "Parallel analysis n-factors",
     "1-factor variance explained (%)",
     "1-factor RMSR",
@@ -541,8 +543,8 @@ comparison <- data.frame(
     "Loadings < 0.20 (n)",
     "Mean loading"
   ),
-  Full_98 = c(
-    "98",
+  Full = c(
+    as.character(ncol(author_mat)),
     as.character(n_prob),
     sprintf("%.2f", 100 * n_prob / total_pairs),
     sprintf("%.2f", eig_vals[1L] / eig_vals[2L]),
@@ -558,7 +560,7 @@ comparison <- data.frame(
     as.character(n_below20_full),
     sprintf("%.4f", mean_load_full)
   ),
-  Trimmed_84 = c(
+  Trimmed = c(
     as.character(ncol(author_mat_trimmed)),
     as.character(n_prob_trimmed),
     sprintf("%.2f", 100 * n_prob_trimmed / total_trimmed_pairs),

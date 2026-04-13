@@ -61,3 +61,4 @@ Rscript scripts/dimensionality_analysis/20_20_setup_renv.R
 
 - `archive/` is fully ignored by git and treated as local legacy material.
 - See `data/README.md` and `scripts/README.md` for folder-level details.
+- **Dimensionality notebook:** `scripts/dimensionality_analysis/11_dimensionality_unidimensionality_check.ipynb` is maintained with executed outputs for the sample in `scripts/config.json` (e.g. `strict_fa`, **N = 688** in the current article pipeline). After editing R cells, **re-run all cells** so stdout/plots match the code (trimmed item count, parallel-analysis factor count, and figure captions are computed in-notebook).

@@ -23,7 +23,7 @@ source(file.path(PROJECT_ROOT, "scripts", "dimensionality_analysis", "12_export_
 1. `table_cfa_fit_indices.csv` — RMSEA, CFI, TLI, SRMR, etc., for full vs trimmed CFA.
 2. `table_cfa_standardized_loadings.csv` — item-level CFA loadings and metadata.
 3. `table_decision_summary.csv` — compact summary aligned with the notebook’s unidimensionality recommendation.
-4. `table_trimmed_analysis_summary.csv` — side-by-side full (98) vs trimmed item set.
+4. `table_trimmed_analysis_summary.csv` — side-by-side full vs trimmed item set (column names `Full` / `Trimmed`; row `Items` reflects `ncol(author_mat)` and `ncol(author_mat_trimmed)` from the run).
 
 ## Suggested appendix / diagnostics
 
