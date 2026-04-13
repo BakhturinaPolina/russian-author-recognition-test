@@ -1,45 +1,63 @@
-# Russian Author Recognition Test (ART) — Research Project
+# Russian Author Recognition Test (ART)
 
-Replication and extension of the Moore & Gordon (2015) IRT-based ART methodology for Russian, with validation against reading and language measures.
+Replication and extension of the Moore & Gordon (2015) IRT-based ART methodology for Russian, with dimensionality checks, item calibration, and person scoring pipelines.
 
 ## Repository structure
 
 ```
 .
-├── data/                    # Canonical dataset
-│   ├── raw/                 # pretest_dataset_ART_only_EN.xlsx + OUT_next_version CSVs
-│   └── processed/           # Derived outputs
-├── archive/                 # Legacy/superseded files (reference only)
-│   └── legacy_csv/
-├── docs/                    # Analysis reports + references (PDFs)
-│   └── references/
-├── scripts/                 # Notebooks and scripts
-│   ├── pisa_analysis.ipynb
-│   ├── translate_art_dataset.py
-│   └── testconstruction.r
-├── requirements.txt
+├── data/                                  # Active project data
+├── docs/                                  # Reports and notes
+├── results/                               # Exported article packages and figures
+├── scripts/
+│   ├── config.json                        # Active sample version toggle
+│   ├── set_version.py                     # CLI helper: full | strict_fa
+│   ├── data_prep/                         # 01_* to 05_* preparation scripts
+│   ├── eda/                               # 06_* to 10_* EDA notebooks/scripts
+│   ├── dimensionality_analysis/           # 11_* to 12_* + R env files
+│   ├── irt_analysis/                      # 13_* to 16_* notebooks/scripts
+│   └── article_exports/                   # 17_* to 19_* R export scripts
+├── requirements.txt                       # Python environment (venv)
 └── README.md
 ```
 
-## Data
+## Version switch
 
-- **Active data:** `data/raw/` — `pretest_dataset_ART_only_EN.xlsx` and CSVs from the most complete processed export (adults/children/no_birthdate, ART + PISA).
-- **Archive:** `archive/legacy_csv/` — Older CSVs (empty_rm, OUT, OUT 2, quiz, Res_Recalculated_PISA1).
+Set the active sample version in `scripts/config.json`:
 
-See `data/README.md` for file descriptions and usage.
+```bash
+python3 scripts/set_version.py strict_fa
+# or
+python3 scripts/set_version.py full
+```
 
-## Setup
+## Environment setup
+
+### Python (`.venv`)
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+source .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## References
+### R dimensionality environment (micromamba/conda)
 
-- Moore, M., & Gordon, P. C. (2015). Reading ability and print exposure: Item response theory analysis of the author recognition test. *Behavior Research Methods*, 47(4), 1095–1109.
+R dimensionality work is configured in:
+- `scripts/dimensionality_analysis/environment.yml`
+- `scripts/dimensionality_analysis/renv.lock`
+- `scripts/dimensionality_analysis/setup_renv.R`
 
-## License
+Create and verify:
 
-Specify your license (e.g. CC BY 4.0, MIT) as needed.
+```bash
+micromamba create -f scripts/dimensionality_analysis/environment.yml
+micromamba activate r_dimensionality
+Rscript scripts/dimensionality_analysis/setup_renv.R
+```
+
+## Notes
+
+- `archive/` is fully ignored by git and treated as local legacy material.
+- See `data/README.md` and `scripts/README.md` for folder-level details.

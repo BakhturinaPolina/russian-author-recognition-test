@@ -12,7 +12,12 @@ if (length(miss)) {
   stop("person_df missing columns: ", paste(miss, collapse = ", "))
 }
 
-OUT_DIR <- file.path(PROJECT_ROOT, "results", "person_scoring_article_package_2026-04-06")
+if (!exists("RESULTS_TAG")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  RESULTS_TAG <- if (config$SAMPLE_VERSION == "full") "" else paste0("_", config$SAMPLE_VERSION)
+}
+OUT_DIR <- file.path(PROJECT_ROOT, "results",
+                     paste0("person_scoring", RESULTS_TAG, "_article_package_2026-04-06"))
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 write_safe <- function(df, name) {

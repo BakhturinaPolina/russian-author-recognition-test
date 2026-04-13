@@ -1,5 +1,5 @@
 # Article package export for notebook 05 (dimensionality / unidimensionality).
-# Run after all analysis cells in 05_dimensionality_unidimensionality_check.ipynb
+# Run after all analysis cells in 11_dimensionality_unidimensionality_check.ipynb
 # (expects PROJECT_ROOT, author_mat, item_key, tet, pa, fa1, fa2, load1, load2,
 #  mod1, item_pars_df, cfa_fit, fm, fit_table, loadings_df, problem_pairs,
 #  comparison, eig_vals, and — from the decision cell — f2_primary if present).
@@ -9,7 +9,12 @@ stopifnot(exists("PROJECT_ROOT"), exists("author_mat"), exists("tet"), exists("p
           exists("fit_table"), exists("loadings_df"), exists("endorse_df"),
           exists("item_pars_df"))
 
-OUT_DIR <- file.path(PROJECT_ROOT, "results", "dimensionality_check_article_package_2026-04-06")
+if (!exists("RESULTS_TAG")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  RESULTS_TAG <- if (config$SAMPLE_VERSION == "full") "" else paste0("_", config$SAMPLE_VERSION)
+}
+OUT_DIR <- file.path(PROJECT_ROOT, "results",
+                     paste0("dimensionality_check", RESULTS_TAG, "_article_package_2026-04-06"))
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 write_safe <- function(df, name) {

@@ -1,25 +1,34 @@
-# Russian ART research project
+# Python environment for this project (.venv)
+# Install with:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+
+# Notebook/runtime
+jupyter>=1.0
+ipykernel>=6.0
+
+# Core data handling
 pandas>=2.0
 numpy>=1.24
 openpyxl>=3.1
+odfpy>=1.4
 
-# IRT / psychometrics analysis (irt_art_analysis.ipynb)
+# Analysis and plotting
 scipy>=1.10
+scikit-learn>=1.3
 matplotlib>=3.7
 seaborn>=0.12
-girth>=0.8
+plotly>=5.0
 factor_analyzer>=0.5
-scikit-learn>=1.3
+girth>=0.8
 tqdm>=4.65
 tabulate>=0.9
-plotly>=5.0
 
-# Optional: Bayesian IRT (uncomment as needed)
-# py-irt>=0.4.0
-# pymc>=5.0
+# Translation/data prep utilities
+deep-translator>=1.11
 
-# Optional: statistical testing
-# pingouin>=0.5
-
-# Optional: translation script
-# deep-translator>=1.11
+# R dimensionality dependencies are managed separately via:
+# scripts/dimensionality_analysis/environment.yml
+# scripts/dimensionality_analysis/renv.lock
+# scripts/dimensionality_analysis/setup_renv.R

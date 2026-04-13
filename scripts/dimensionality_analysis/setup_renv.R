@@ -26,7 +26,7 @@
 #                    displayname = "R (r_dimensionality)")'
 #
 # 4. Run the notebook:
-#      jupyter notebook 05_dimensionality_unidimensionality_check.ipynb
+#      jupyter notebook 11_dimensionality_unidimensionality_check.ipynb
 #
 # ── Verification (this script) ──────────────────────────────────────────
 #

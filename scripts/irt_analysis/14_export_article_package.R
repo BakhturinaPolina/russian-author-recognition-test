@@ -7,7 +7,12 @@ stopifnot(
   exists("params_df"), exists("theta_df")
 )
 
-OUT_DIR <- file.path(PROJECT_ROOT, "results", "irt_item_calibration_article_package_2026-04-06")
+if (!exists("RESULTS_TAG")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  RESULTS_TAG <- if (config$SAMPLE_VERSION == "full") "" else paste0("_", config$SAMPLE_VERSION)
+}
+OUT_DIR <- file.path(PROJECT_ROOT, "results",
+                     paste0("irt_item_calibration", RESULTS_TAG, "_article_package_2026-04-06"))
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 write_safe <- function(df, name) {

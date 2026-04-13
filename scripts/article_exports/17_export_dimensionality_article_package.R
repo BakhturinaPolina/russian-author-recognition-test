@@ -1,9 +1,9 @@
 # Article package: dimensionality / unidimensionality check (notebook 05).
 # Usage (from repo root):
-#   Rscript -e 'PROJECT_ROOT <- normalizePath("."); source("scripts/article_exports/export_05_dimensionality_article_package.R")'
+#   Rscript -e 'PROJECT_ROOT <- normalizePath("."); source("scripts/article_exports/17_export_dimensionality_article_package.R")'
 # Or from IRkernel after:
 #   PROJECT_ROOT <- normalizePath(file.path("..", ".."), mustWork = TRUE)
-#   source(file.path(PROJECT_ROOT, "scripts", "article_exports", "export_05_dimensionality_article_package.R"))
+#   source(file.path(PROJECT_ROOT, "scripts", "article_exports", "17_export_dimensionality_article_package.R"))
 
 options(mc.cores = 1L)
 Sys.setenv(MC_CORES = "1")
@@ -25,10 +25,25 @@ if (!exists("PROJECT_ROOT", inherits = TRUE)) {
   }
 }
 
-OUT_DIR <- file.path(PROJECT_ROOT, "results", "dimensionality_check_article_package_2026-04-06")
+if (!exists("RESULTS_TAG")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  RESULTS_TAG <- if (config$SAMPLE_VERSION == "full") "" else paste0("_", config$SAMPLE_VERSION)
+}
+OUT_DIR <- file.path(PROJECT_ROOT, "results",
+                     paste0("dimensionality_check", RESULTS_TAG, "_article_package_2026-04-06"))
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
-DATA_DIR <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs")
+if (!exists("SAMPLE_VERSION")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  SAMPLE_VERSION <- config$SAMPLE_VERSION
+}
+if (SAMPLE_VERSION == "full") {
+  DATA_DIR <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs")
+} else {
+  DATA_DIR <- file.path(PROJECT_ROOT, "data",
+                        paste0("stepwise_cleaned_versions_", SAMPLE_VERSION),
+                        "03_dimensionality_inputs")
+}
 
 manifest <- read.csv(
   file.path(DATA_DIR, "ART_pretest_(for Castano)_EN__dimensionality_input__manifest.csv"),

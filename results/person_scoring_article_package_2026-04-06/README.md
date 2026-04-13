@@ -1,10 +1,10 @@
 # Article Package: Person Scoring (07)
 
-Generated from `scripts/irt_analysis/07_person_scoring.ipynb`.
+Generated from `scripts/irt_analysis/15_person_scoring.ipynb`.
 
 **Reproducibility:** Run the notebook through the merged `person_df` (with `hits`, `corrected_art_score`, `stronger_penalty_score`, `theta`, `irt06_theta_se`, and demographics), then execute the final cell or:
 
-`source(file.path(PROJECT_ROOT, "scripts", "irt_analysis", "07_export_article_package.R"))`
+`source(file.path(PROJECT_ROOT, "scripts", "irt_analysis", "16_export_article_package.R"))`
 
 ## Tables (CSV)
 

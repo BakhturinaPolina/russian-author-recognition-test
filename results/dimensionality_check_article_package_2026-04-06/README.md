@@ -1,12 +1,12 @@
 # Dimensionality / Unidimensionality Check — Article Package
 
-Source notebook: `scripts/dimensionality_analysis/05_dimensionality_unidimensionality_check.ipynb`
+Source notebook: `scripts/dimensionality_analysis/11_dimensionality_unidimensionality_check.ipynb`
 
 Regenerate this folder by running the final **Article package export** cell in that notebook (or `source()` the script below from the project root with `PROJECT_ROOT` set).
 
 ```r
 # After running all analysis cells in the notebook (objects in memory):
-source(file.path(PROJECT_ROOT, "scripts", "dimensionality_analysis", "05_export_article_package.R"))
+source(file.path(PROJECT_ROOT, "scripts", "dimensionality_analysis", "12_export_article_package.R"))
 ```
 
 **Note:** The export script writes tables and figures from **existing** notebook objects; it does not refit models. Run the full notebook first if those objects are missing.

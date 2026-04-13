@@ -28,6 +28,9 @@ build/
 .DS_Store
 Thumbs.db
 
+# Archive (fully ignored)
+archive/**
+
 # Data files (no open access on GitHub)
 *.csv
 *.xls

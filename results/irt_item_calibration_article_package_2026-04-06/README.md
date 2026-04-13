@@ -1,12 +1,12 @@
 # Article Package: IRT Item Calibration (06)
 
-Source notebook: `scripts/irt_analysis/06_irt_item_calibration.ipynb`
+Source notebook: `scripts/irt_analysis/13_irt_item_calibration.ipynb`
 
 **Regenerate:** Run the notebook through the **theta-scores** cell, then the final export cell, or from R:
 
 ```r
 # After notebook objects exist (mod_1pl, mod_2pl, mod_3pl, params_df, theta_df, item_key, …)
-source(file.path(PROJECT_ROOT, "scripts", "irt_analysis", "06_export_article_package.R"))
+source(file.path(PROJECT_ROOT, "scripts", "irt_analysis", "14_export_article_package.R"))
 ```
 
 **Note:** Export uses fitted models already in memory (no refit). ICC/TIF/CSE recomputation is quick.

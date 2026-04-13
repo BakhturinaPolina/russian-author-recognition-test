@@ -1,6 +1,6 @@
 # Participant Demographics EDA Article Package
 
-Source notebook: `scripts/eda/03_participant_demographics_eda.ipynb`
+Source notebook: `scripts/eda/09_participant_demographics_eda.ipynb`
 
 This package contains publication-oriented artifacts from participant demographics EDA after applying the notebook's adult-only analysis frame (`age >= 18`, valid age range `10-100`) and education/profession harmonization.
 

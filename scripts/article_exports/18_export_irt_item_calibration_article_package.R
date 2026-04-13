@@ -1,7 +1,7 @@
 # Article package: IRT item calibration (notebook 06).
 # Requires: mirt, psych, ggplot2, reshape2
 # Usage:
-#   PROJECT_ROOT <- normalizePath("."); source("scripts/article_exports/export_06_irt_item_calibration_article_package.R")
+#   PROJECT_ROOT <- normalizePath("."); source("scripts/article_exports/18_export_irt_item_calibration_article_package.R")
 
 options(mc.cores = 1L)
 Sys.setenv(MC_CORES = "1")
@@ -22,10 +22,25 @@ if (!exists("PROJECT_ROOT", inherits = TRUE)) {
   }
 }
 
-OUT_DIR <- file.path(PROJECT_ROOT, "results", "irt_item_calibration_article_package_2026-04-06")
+if (!exists("SAMPLE_VERSION")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  SAMPLE_VERSION <- config$SAMPLE_VERSION
+}
+if (!exists("RESULTS_TAG")) {
+  RESULTS_TAG <- if (SAMPLE_VERSION == "full") "" else paste0("_", SAMPLE_VERSION)
+}
+
+OUT_DIR <- file.path(PROJECT_ROOT, "results",
+                     paste0("irt_item_calibration", RESULTS_TAG, "_article_package_2026-04-06"))
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
-DATA_DIR <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs")
+if (SAMPLE_VERSION == "full") {
+  DATA_DIR <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs")
+} else {
+  DATA_DIR <- file.path(PROJECT_ROOT, "data",
+                        paste0("stepwise_cleaned_versions_", SAMPLE_VERSION),
+                        "03_dimensionality_inputs")
+}
 
 author_df <- read.csv(
   file.path(DATA_DIR, "ART_pretest_(for Castano)_EN__dimensionality_input__author_response_matrix.csv"),

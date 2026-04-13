@@ -19,7 +19,16 @@ if (!exists("PROJECT_ROOT", inherits = TRUE)) {
   }
 }
 
-OUT_DIR <- file.path(PROJECT_ROOT, "results", "person_scoring_article_package_2026-04-06")
+if (!exists("SAMPLE_VERSION")) {
+  config <- jsonlite::fromJSON(file.path(PROJECT_ROOT, "scripts", "config.json"))
+  SAMPLE_VERSION <- config$SAMPLE_VERSION
+}
+if (!exists("RESULTS_TAG")) {
+  RESULTS_TAG <- if (SAMPLE_VERSION == "full") "" else paste0("_", SAMPLE_VERSION)
+}
+
+OUT_DIR <- file.path(PROJECT_ROOT, "results",
+                     paste0("person_scoring", RESULTS_TAG, "_article_package_2026-04-06"))
 dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 save_dual <- function(plot_obj, base_name, w = 8, h = 6) {
@@ -27,18 +36,30 @@ save_dual <- function(plot_obj, base_name, w = 8, h = 6) {
   ggsave(file.path(OUT_DIR, paste0(base_name, ".pdf")), plot_obj, width = w, height = h, device = "pdf", bg = "white")
 }
 
+if (SAMPLE_VERSION == "full") {
+  THETA_DIR <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "06_irt_item_calibration")
+  DIM_DIR   <- file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs")
+} else {
+  THETA_DIR <- file.path(PROJECT_ROOT, "data",
+                         paste0("stepwise_cleaned_versions_", SAMPLE_VERSION),
+                         "04_irt_item_calibration")
+  DIM_DIR   <- file.path(PROJECT_ROOT, "data",
+                         paste0("stepwise_cleaned_versions_", SAMPLE_VERSION),
+                         "03_dimensionality_inputs")
+}
+
 theta_df <- read.csv(
-  file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "06_irt_item_calibration",
+  file.path(THETA_DIR,
             "ART_pretest_(for Castano)_EN__irt_theta_scores.csv"),
   stringsAsFactors = FALSE
 )
 summary_df <- read.csv(
-  file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs",
+  file.path(DIM_DIR,
             "ART_pretest_(for Castano)_EN__dimensionality_input__participant_summary.csv"),
   stringsAsFactors = FALSE
 )
 demo_df <- read.csv(
-  file.path(PROJECT_ROOT, "data", "stepwise_cleaned_versions", "05_dimensionality_inputs",
+  file.path(DIM_DIR,
             "ART_pretest_(for Castano)_EN__dimensionality_input__participant_demographics.csv"),
   stringsAsFactors = FALSE
 )
