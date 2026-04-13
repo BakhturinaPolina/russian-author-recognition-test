@@ -1,0 +1,78 @@
+name: Deploy Results to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "results/**"
+      - ".github/workflows/deploy-results-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site from results
+        run: |
+          set -euo pipefail
+          mkdir -p _site/results
+          cp -R results/. _site/results/
+          cat > _site/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Russian Author Recognition Test - Interactive Results</title>
+            <style>
+              body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+              h1 { margin-bottom: 0.3rem; }
+              ul { margin-top: 0.5rem; }
+            </style>
+          </head>
+          <body>
+            <h1>Interactive Results</h1>
+            <p>Open the Plotly interactive exports below:</p>
+            <h2>Strict FA Sample</h2>
+            <ul>
+              <li><a href="./results/item_level_descriptives_strict_fa_article_package_2026-04-06/interactive_author_selection_rates_lollipop.html">Author selection rates lollipop</a></li>
+              <li><a href="./results/item_level_descriptives_strict_fa_article_package_2026-04-06/interactive_paired_scores_scatter.html">Paired scores scatter</a></li>
+              <li><a href="./results/item_level_descriptives_strict_fa_article_package_2026-04-06/interactive_genre_intensity_coverage_barh.html">Genre intensity coverage bar chart</a></li>
+            </ul>
+            <h2>Full Sample</h2>
+            <ul>
+              <li><a href="./results/item_level_descriptives_article_package_2026-04-06/interactive_author_selection_rates_lollipop.html">Author selection rates lollipop</a></li>
+              <li><a href="./results/item_level_descriptives_article_package_2026-04-06/interactive_paired_scores_scatter.html">Paired scores scatter</a></li>
+              <li><a href="./results/item_level_descriptives_article_package_2026-04-06/interactive_genre_intensity_coverage_barh.html">Genre intensity coverage bar chart</a></li>
+            </ul>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
