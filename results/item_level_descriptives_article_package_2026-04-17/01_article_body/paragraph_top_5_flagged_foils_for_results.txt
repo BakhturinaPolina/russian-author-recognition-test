@@ -1,0 +1,5 @@
+Suggested wording for the Results section (top foils by endorsement flags):
+
+The foils with the strongest endorsement signals were Paul Williams (19.5% endorsed; n_valid=908), Valentin Levin (18.9% endorsed; n_valid=908), Vladimir Pozdnyakov (16.0% endorsed; n_valid=908), German Sadulayev (13.2% endorsed; n_valid=908), and Alexander Fomin (11.1% endorsed; n_valid=908).
+
+(Edit for house style; percentages are selection rates on valid n.)

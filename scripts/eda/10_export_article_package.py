@@ -8,7 +8,10 @@ Reads from:
     data/stepwise_cleaned_versions/03_participant_demographics_normalized_categories/
         ART_pretest_(for Castano)_EN__participant_demographics_step04_normalized_categories.csv
 
-Exports to:
+Exports to (legacy flat layout; **canonical export** is the notebook cell in
+`08_item_level_descriptives.ipynb`, which writes
+`results/item_level_descriptives[_SAMPLE]_article_package_2026-04-17/` with
+`01_article_body/` and `02_appendix/` — update this script to match when needed):
     results/item_level_descriptives_article_package_2026-04-06/
 """
 
