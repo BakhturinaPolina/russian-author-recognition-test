@@ -7,7 +7,7 @@ Replicate the Moore and Gordon (2015) ART psychometric workflow on the cleaned R
 - `data/processed/art_cleaned/ART_pretest_merged_EN_cleaned.csv`
 - `data/processed/art_cleaned/item_metadata.csv`
 - `data/processed/art_cleaned/excluded_items.csv` (audit trail)
-- Cleaning rationale: `docs/art_cleaning/CLEANING_DECISIONS.md`
+- Cleaning rationale: `archive/CLEANING_DECISIONS.md`
 
 ## Analysis Notebook
 - `scripts/analysis/russian_art_irt_replication.ipynb`
