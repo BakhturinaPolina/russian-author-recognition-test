@@ -1,0 +1,3 @@
+"group","n","mean_theta","sd_theta","comparison"
+"Non-humanities",449,-0.152857982878271,0.945581488161895,"humanities_vs_non"
+"Humanities",159,0.551213450909332,0.845974053265935,"humanities_vs_non"

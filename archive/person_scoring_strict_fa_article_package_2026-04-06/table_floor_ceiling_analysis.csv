@@ -1,0 +1,5 @@
+"score","floor_val","ceiling_val","n_floor","n_ceiling","pct_floor","pct_ceiling"
+"hits",11,96,2,2,0.3,0.3
+"corrected_art_score",-18,95,1,3,0.1,0.4
+"stronger_penalty_score",-19.898,95,1,1,0.1,0.1
+"theta",-1.879,2.098,14,14,2,2
