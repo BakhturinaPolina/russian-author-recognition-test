@@ -1,0 +1,20 @@
+rule,n_flagged
+Author endorsement <.05 or >.95,10
+Author corrected item-total <.10,1
+Author corrected item-total negative,0
+Author endorsement z > 2,0
+Author endorsement > Q3 + 1.5*IQR,0
+Author endorsement > P95,5
+Author endorsement > 0.20,85
+Foil endorsement z > 2,4
+Foil endorsement > Q3 + 1.5*IQR,5
+Foil endorsement > P95,6
+Foil endorsement > 0.20,0
+Author missingness z > 2,1
+Author missingness > Q3 + 1.5*IQR,1
+Author missingness > P95,1
+Author missingness > 0.20,0
+Foil missingness z > 2,0
+Foil missingness > Q3 + 1.5*IQR,0
+Foil missingness > P95,0
+Foil missingness > 0.20,0

@@ -1,0 +1,99 @@
+rank,item_label,genre,selection_rate_pct,n_selected,n_valid
+1,Jules Verne,Classics,98.9,898.0,908
+2,Arthur Conan Doyle,Classics,98.8,897.0,908
+3,Jack London,Classics,98.5,894.0,908
+4,Agatha Christie,Detective/Thriller,97.7,887.0,908
+5,Alexandre Dumas,Classics,97.7,887.0,908
+6,Charles Dickens,Classics,97.2,883.0,908
+7,John R.R. Tolkien,Fantasy,97.2,883.0,908
+8,Ray Bradbury,Sci-Fi,96.7,878.0,908
+9,Eric Maria Remarque,Classics,96.1,873.0,908
+10,Haruki Murakami,Modern/Literary,93.5,849.0,908
+11,George Orwell,Sci-Fi,92.3,838.0,908
+12,Max Fry,Modern/Literary,91.5,831.0,908
+13,Bernard Shaw,Classics,91.1,827.0,908
+14,Victor Pelevin,Modern/Literary,90.9,825.0,908
+15,Jane Austen,Classics,87.1,791.0,908
+16,Sergey Lukyanenko,Fantasy,85.4,775.0,908
+17,Gabriel Garsia Marquez,Classics,80.7,733.0,908
+18,Kir Bulychev,SovLit,80.6,732.0,908
+19,George R.R. Martin,Fantasy,79.8,725.0,908
+20,Tatiana Ustinova,Detective/Thriller,79.2,719.0,908
+21,Dan Bruwn,Detective/Thriller,77.1,700.0,908
+22,Charlotte Bronte,Classics,75.3,684.0,908
+23,Aldous Huxley,Sci-Fi,73.6,668.0,908
+24,Margaret Mitchell,Classics,71.9,653.0,908
+25,Somerset Maugham,Classics,70.2,637.0,908
+26,Harper Lee,Classics,69.5,631.0,908
+27,Ian Fleming,Detective/Thriller,67.6,613.0,907
+28,James Fenimore Cooper,Classics,67.2,610.0,908
+29,Neil Gaiman,Fantasy,67.1,609.0,908
+30,Bram Stoker,Fantasy,65.4,594.0,908
+31,Andrzej Sapkovski,Fantasy,65.0,590.0,908
+32,Dmitry Bykov,Modern/Literary,64.5,586.0,908
+33,Victor Astafiev,SovLit,64.4,585.0,908
+34,Chingiz Aitmanov,SovLit,64.2,583.0,908
+35,Zakhar Prilepin,Modern/Literary,63.2,574.0,908
+36,Isaac Babel,SovLit,61.6,559.0,908
+37,Alexandra Marinina,Detective/Thriller,60.8,552.0,908
+38,Vasily Aksyonov,SovLit,60.6,550.0,908
+39,Yury  Olesha,SovLit,60.5,549.0,908
+40,Henry Miller,Classics,59.8,543.0,908
+41,Alan Milne,Classics,57.9,526.0,908
+42,Vladimir Sorokin,Modern/Literary,57.4,521.0,908
+43,Dmutry Gluhovsky,Sci-Fi,57.4,521.0,908
+44,Dina Rubina,Modern/Literary,57.2,519.0,908
+45,Janusz Wisniewski,Modern/Literary,56.7,515.0,908
+46,Daniel Keyes,Modern/Literary,55.2,501.0,908
+47,William Thackeray,Classics,55.1,500.0,908
+48,Valentin Rasputin,SovLit,54.0,490.0,908
+49,John Fowles,Classics,53.9,489.0,908
+50,Arthur Haley,Classics,53.7,488.0,908
+51,Daniil Granin,SovLit,51.4,467.0,908
+52,Vladimir Voinovich,SovLit,50.4,458.0,908
+53,Ethel Lilian Voynich,Classics,50.0,454.0,908
+54,Alane Moore,Sci-Fi,49.7,451.0,908
+55,Irving Stone,Classics,49.6,450.0,908
+56,Mikhail Weller,Modern/Literary,49.4,449.0,908
+57,Yu Nesbo,Detective/Thriller,48.8,443.0,908
+58,Ayn Rand,Modern/Literary,48.5,440.0,908
+59,Victor Erofeev,SovLit,48.2,438.0,908
+60,Ivan Efremov,SovLit,47.6,432.0,908
+61,Irwin Welch,Modern/Literary,47.0,427.0,908
+62,Lyudmila Petrushevskaya,Modern/Literary,46.5,422.0,908
+63,Leonid Andreev,SovLit,45.5,413.0,908
+64,Arkady Averchenko,SovLit,45.2,410.0,908
+65,Samuel Beckett,Classics,44.5,404.0,908
+66,Henryk Sienkiewicz,Classics,44.3,402.0,908
+67,Mariam  Petrosyan,Modern/Literary,43.7,397.0,908
+68,Thomas Hardy,Classics,43.7,397.0,908
+69,Pavel Sanaev,Modern/Literary,43.0,390.0,908
+70,Catherine Vilmon,Detective/Thriller,38.3,348.0,908
+71,Colin McCullough,Classics,37.7,342.0,908
+72,Andrey Belyanin,Modern/Literary,37.6,341.0,908
+73,Boris Vasiliev,SovLit,37.6,341.0,908
+74,Mario Puzo,Detective/Thriller,37.0,336.0,908
+75,Milorad Pavic,Classics,36.5,331.0,908
+76,Evgeny Vodolazkin,Modern/Literary,34.4,312.0,908
+77,Herman Melville,Classics,32.4,294.0,908
+78,Alexey Ivanov,Modern/Literary,31.6,287.0,908
+79,Michel Houlleback,Modern/Literary,31.3,284.0,908
+80,Guzel Yakhina,Modern/Literary,31.1,282.0,908
+81,Donna Tartt,Modern/Literary,31.1,282.0,908
+82,Markus Zusak,Modern/Literary,27.3,248.0,908
+83,Narine Abgaryan,Modern/Literary,26.8,243.0,908
+84,Mikhail Elizarov,Modern/Literary,25.3,230.0,908
+85,Boris Vian,Classics,24.9,226.0,908
+86,Lawrense Stern,Classics,17.6,160.0,908
+87,Gillian Flynn,Detective/Thriller,16.0,145.0,908
+88,Khaled Hosseini,Modern/Literary,15.2,138.0,908
+89,Archibald Cronin,Classics,14.2,129.0,908
+90,Paula Hawkins,Detective/Thriller,12.7,115.0,908
+91,Frederik Bucman,Modern/Literary,12.7,115.0,908
+92,Gregory David Roberts,Modern/Literary,9.5,86.0,908
+93,Art Spiegelman,Modern/Literary,8.7,79.0,908
+94,Catherine Stokett,Modern/Literary,7.6,69.0,908
+95,Lee Bardugo,Fantasy,6.9,63.0,908
+96,Marie - Aude Murai,Modern/Literary,6.8,62.0,908
+97,Reshad Nuri Gyuntekin,Modern/Literary,5.4,49.0,908
+98,Yustein Gordier,Modern/Literary,4.1,37.0,908

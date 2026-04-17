@@ -1,0 +1,2 @@
+n_participants_primary,mean_foil_selection_rate_pct_valid_cells,mean_foil_endorsements_per_participant_pct_of_foils,paired_mean_diff_name_minus_standard,paired_t,paired_df,paired_p_two_sided,cohens_dz_paired
+908,3.6894,3.6894,3.837,23.0931,907,3.5922821582183127e-93,0.7664
